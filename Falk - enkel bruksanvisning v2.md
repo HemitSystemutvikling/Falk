@@ -2,10 +2,12 @@
 
 ## Pålogging til kvalitetsregistrene
 Falk erstatter Helseregister.no, som ikke lengre oppfyller dagens krav til sikkerhet.
+
 Falk sørger for at du får logget på alle kvalitetsregistrene i Norge på en sikker, trygg og enkel måte.
 
 ## Hvordan logger jeg på et register?
 Besøk registeret slik du er vant til, f.eks. via [https://mrs.nhn.no/](https://mrs.nhn.no/)
+
 Registeret vil logge deg på via Falk så sømløst som mulig, men vil kanskje be deg logge på via Id-porten (hvis vi ikke er sikre nok på hvem du er), og vil kanskje be deg velge tilgang (hvis du har flere tilganger).
 
 ## Hvordan får jeg som ny bruker tilgang til et register?
