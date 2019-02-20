@@ -4,4 +4,4 @@
 
 [Driftsdokumentasjon for Falk](Driftsdokumentasjon%20for%20Falk)
 
-[Falk brukerdokumentasjon](Falk%20brukerdokumentasjon)
+![Falk brukerdokumentasjon](Falk%20brukerdokumentasjon.pdf)
