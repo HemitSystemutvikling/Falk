@@ -1,0 +1,1 @@
+Oversikt over hvem som har ansvar for de forskjellige risikoene fra ROS-analyse
