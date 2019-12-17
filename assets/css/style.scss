@@ -1,0 +1,12 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.page-header {
+    padding: 2rem 3rem;
+}
+
+.page-header > a, .page-header > h2 {
+    display: none;
+}
