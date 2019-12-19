@@ -1,26 +1,29 @@
 # Step-By-Step for Bruker
-Når man går til et register du ikke har tilgang til, eller har flere tilganger til, kommer man til denne siden:
+
+[Veileding for inn logging.](LoggInn.md)
+
+Når du går til et register du ikke har tilgang til, eller har flere tilganger til, kommer du til denne siden:
 
 ![VelgTilgangForPålogging-IngenTilgang](img/VelgTilgangForPålogging-IngenTilgang.PNG)
 
-Her kan man velge en tilgang, eller i dette tilfellet hvor man ikke har noen tilganger fra før velge å søke om tilgang.
+Her kan du velge en tilgang, eller i dette tilfellet hvor du ikke har noen tilganger fra før velge å søke om tilgang.
 
-Når man trykker på ""Søk om ny tilgang til \<Registeret\>" kommer man til en søknad der noen av feltene er fyltt ut automatisk.
+Når du trykker på ""Søk om ny tilgang til \<Registeret\>" kommer du til en søknad der noen av feltene er fylt ut automatisk.
 
 ![Søknad-PromsTestregisterQA](img/Søknad-PromsTestregisterQA.PNG)
 
-Her fyller man ut informasjon om hva man tregner for å informere Tilgangstildeleren om hvilke rolle de skal gi.
+Her fyller du ut informasjon om hva du trenger for å informere Tilgangstildeleren om hvilke rolle de skal gi.
 
 ![SøknadUtfylt-PromsTestregisterQA](img/SøknadUtfylt-PromsTestregisterQA.PNG)
 
-Deretter trykker man på "SEND INN SØKNAD".
-Da får man opp en oversikt over søknaden som ble sent, samt at man får en mail om at søknaden er sent til behandling.
+Deretter trykker du på "SEND INN SØKNAD".
+Da får du opp en oversikt over søknaden som ble sent, samt at du får en e-post om at søknaden er sent til behandling.
 
 ![SøknadsOversikt](img/SøknadsOversikt.PNG)
 
 
-Man kan da enten forlate siden og vente på en mail som sier at søknaden har blit besvart, eller så kan man trykke "GÅ TIL OVERSIKTEN" og så til "Mine Tilganger" for å se alle dine tilganger.
-Før og etter søknaden ble godkjennt:
+Du kan da enten forlate siden og vente på en e-post som sier at søknaden har blitt besvart, eller så kan du trykke "GÅ TIL OVERSIKTEN" og så til "Mine Tilganger" for å se alle dine tilganger.
+Før og etter søknaden ble godkjent:
 
 ![MineTilganger-UtenProms](img/MineTilganger-UtenProms.PNG)
 ![MineTilganger-MedProms](img/MineTilganger-MedProms.PNG)

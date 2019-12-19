@@ -1,5 +1,7 @@
 # Step-By-Step for Tilgangstildeler
 
+[Veileding for inn logging.](LoggInn.md)
+
 Som Tilgangstildeler har man en fane som heter Applikasjoner.  
 Her finner man en liste over alle applikasjonene man har Tilgangstildeler rollen for.
 
