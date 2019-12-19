@@ -1,6 +1,6 @@
 # Step-By-Step for Bruker
 
-[Veileding for inn logging.](LoggInn.md)
+[Klikk her for veiledning for innlogging.](LoggInn.md)
 
 Når du går til et register du ikke har tilgang til, eller har flere tilganger til, kommer du til denne siden:
 

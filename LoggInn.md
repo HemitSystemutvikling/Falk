@@ -1,4 +1,4 @@
-Hvis du ikke allerede er logget inn vil du komme til inn loggings siden.
+Hvis du ikke allerede er logget inn vil du komme til innloggingssiden.
 
 ![LoggInnSts](img/LoggInnSts.PNG)
 
