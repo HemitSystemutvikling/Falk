@@ -1,6 +1,6 @@
 # Step-By-Step for Tilgangstildeler
 
-[Klikk her for veiledning for innlogging.](LoggInn.md)
+[Klikk her for veiledning for innlogging.](LoggInn)
 
 Som Tilgangstildeler har du en fane som heter Applikasjoner.  
 Her finner du en liste over alle applikasjonene du har Tilgangstildeler rollen for.

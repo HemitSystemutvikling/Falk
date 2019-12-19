@@ -2,6 +2,8 @@
 
 ### Brukerdokumentasjon
 
+[Veiledning for innlogging](LoggInn)
+
 [Bruker](Brukerdokumentsjon-bruker)
 
 [Tilgangstildeler](Brukerdokumentsjon-tilgangstildeler)
