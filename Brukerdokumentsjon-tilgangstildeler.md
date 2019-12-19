@@ -7,7 +7,7 @@ Her finner du en liste over alle applikasjonene du har Tilgangstildeler rollen f
 
 ![TilgangstildelerApplikasjoner](img/TilgangstildelerApplikasjoner.PNG)
 
-Når du trykker seg inn på applikasjonen vil du kunne se hvem som har tilgang til applikasonen og nye søknader som må behandles.
+Når du trykker seg inn på applikasjonen vil du kunne se hvem som har tilgang til applikasjonen og nye søknader som må behandles.
 
 ![TilgangstildelerTilganger](img/TilgangstildelerTilganger.PNG)
 ![TilgangstildelerSøknaderIngen](img/TilgangstildelerSøknaderIngen.PNG)
@@ -27,7 +27,7 @@ Når du trykker "GODKJENN SØKNAD" får du en bekreftelse på handlingen.
 
 ![TilgangstildelerSøknadGodkjent](img/TilgangstildelerSøknadGodkjent.PNG)
 
-Hvis du trykker "AVVIS SØKNAD" vil du få opp et lite vindu hvor du skriver inn en begrunnelse for avvisningen og får derretter en bekreftelse på handlingne.
+Hvis du trykker "AVVIS SØKNAD" vil du få opp et lite vindu hvor du skriver inn en begrunnelse for avvisningen og får deretter en bekreftelse på handlingene.
 
 ![TilgangstildelerSøknadAvvist](img/TilgangstildelerSøknadAvvist.PNG)
 ![TilgangstildelerSøknadAvvistBekreftelse](img/TilgangstildelerSøknadAvvistBekreftelse.PNG)
