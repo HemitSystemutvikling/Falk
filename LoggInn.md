@@ -2,11 +2,11 @@ Hvis du ikke allerede er logget inn vil du komme til inn loggings siden.
 
 ![LoggInnSts](img/LoggInnSts.PNG)
 
-Her trykker man på "ID-PORTEN".
+Her trykker du på "ID-PORTEN".
 
 ![LoggInnIdp](img/LoggInnIdp.PNG)
 
-Deretter trykker man på "BANKID" eller "BANKID PÅ MOBIL" og følger instruksene på skjermen.
+Deretter trykker du på "BANKID" eller "BANKID PÅ MOBIL" og følger instruksene på skjermen.
 
 Bankid på mobil vil bli brukt i resten av eksempelet.
 
