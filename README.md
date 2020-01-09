@@ -10,7 +10,7 @@
 
 ### Prosedyrer/rutiner 
 
-[WIP - Prosedyrer](Prosedyrer)
+[Prosedyrer](Prosedyrer)
 
 
 
