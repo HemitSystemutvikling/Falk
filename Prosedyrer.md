@@ -14,6 +14,7 @@
 
 **Beskrivelse:**
 NHN har ansvaret for å sørge for at de har fått informasjon om hvem som skal være Tilgangstildeler for applikasjonen.
+- Dette må ligge som et punk under informasjon NHN trenger får å sette opp en ny applikasjon, på lik linje med navn og url til applikasjonen.
 
 **Referanser og vedlegg:**  Ingen
 
@@ -34,6 +35,7 @@ NHN har ansvaret for å sørge for at de har fått informasjon om hvem som skal 
 **Beskrivelse:**
 Tilgangstildeler har ansvaret for å sørge for at de gir informasjon om hyppighet av varsler hvis det skal være noe annet en default.
 `Hva er default?`
+- I likhet med 4.1, dette bør være et punk under informasjon NHN trenger. (Synes det skal være med selv om det er default)
 
 **Referanser og vedlegg:**  Ingen
 
@@ -53,6 +55,9 @@ Tilgangstildeler har ansvaret for å sørge for at de gir informasjon om hyppigh
 **Beskrivelse:**
 Tilgangstildeler har ansvaret for at brukere som søker får rett tilgang.
 Hvis det skjer at en bruker får feil tilgang skal Tilgangstildeler fjerne tilgangen som er feil og gi brukeren tilgangen som de skulle ha.
+- Mest sansynlig, bruker sier i fra at de ikke har fått tilgang ditt de skulle hatt
+- Tilgangstildeler kan deretter fjerne og gi brukeren tilgangen som de skulle ha.
+- Tilgangstildeler bør gå gjennom alle brukere å se over at all har de tilgangene de skal har og bare de tilgangene de skal ha.
 
 **Referanser og vedlegg:** Ingen
 
@@ -90,6 +95,8 @@ Hvis det skjer at en bruker får feil tilgang skal Tilgangstildeler fjerne tilga
 **Beskrivelse:**
 Tilgangstildeler har ansvar for å fjerne tlganger til brukere som slutter eller flytter.
 Alle tilganger må gå gjennom en gang i året for å sørge for at ingen ble glemt.
+- Tilgangstildeler må legge til et punk i listen som gjennomgås når en bruker slutter hvor tilganger blir fjernet.
+- Tilgangstildeler bør gå gjennom alle brukere å se over at all har de tilgangene de skal har og bare de tilgangene de skal ha.
 
 **Referanser og vedlegg:** 
 
