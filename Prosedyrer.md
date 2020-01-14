@@ -114,8 +114,7 @@ Alle tilganger må gå gjennom en gang i året for å sørge for at ingen ble gl
 **Ansvar og Myndighet:** Tilgangstildeler
 
 **Beskrivelse:**
-Tilgangstildeler har ansvaret for at søknadene som kommer inn for applikasjonen sin blir besvart innen en kort tidsperiode.
-`Sette en tidsperiode? en dag? en uke?`  
+Tilgangstildeler har ansvaret for at søknadene som kommer inn for applikasjonen sin blir besvart innen to-tre virkedager.
 
 **Referanser og vedlegg:** Ingen
 
