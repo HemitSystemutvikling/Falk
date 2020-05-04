@@ -10,7 +10,7 @@
 
 ### Prosedyrer/rutiner 
 
-[Prosedyrer](Prosedyrer)
+[Prosedyrer](Prosedyrer.md)
 
 
 
