@@ -2,11 +2,11 @@
 
 ### Brukerdokumentasjon
 
-[Veiledning for innlogging](LoggInn)
+[Veiledning for innlogging](LoggInn.md)
 
-[Bruker](Brukerdokumentsjon-bruker)
+[Bruker](Brukerdokumentsjon-bruker.md)
 
-[Tilgangstildeler](Brukerdokumentsjon-tilgangstildeler)
+[Tilgangstildeler](Brukerdokumentsjon-tilgangstildeler.md)
 
 ### Prosedyrer/rutiner 
 
