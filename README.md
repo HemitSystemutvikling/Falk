@@ -10,7 +10,7 @@
 
 [Applikasjons Administrator](Brukerdokumentasjon-appliokasjonsadmin.md)
 
-[Falk Administrator](Brukerdokumentsjon-falkadmin.md)
+[Falk Administrator](Brukersokumantasjon-falkadmin.md)
 
 ### Prosedyrer/rutiner 
 
