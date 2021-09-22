@@ -20,3 +20,6 @@ Fyll ut telefonnummer og fødselsdato og trykk "NESTE".
 
 Etter dette er gjort er du logget inn!
 
+Hvis du har flere roller i registeret vil du få opp en oversikt der du kan velge hvilke rolle du vil logge inn med.
+
+![LoggInnRolleValg](img/LoggInnRolleValg.PNG)
