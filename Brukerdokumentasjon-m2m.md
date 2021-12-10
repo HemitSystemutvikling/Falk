@@ -17,6 +17,7 @@ Falk Admin har også en fane som heter "API Admin". Her finner man en oversikt o
 
 Man kan legge til en ny API resurs ved å Trykke på "Legg til ny API resurs"-knappen.
 Fyll ut Name, Display Name og en eller flere scope key og value. 
+For å få korrekte scopes kan Hemit systemutvikling kontaktes på [systemutvikling@hemit.no](mailto:systemutvikling@hemit.no).
 
 ![APIAdmin](img/m2m-apiAdmin.PNG)
 ![APIAdminLeggTilNy](img/m2m-apiAdminLeggTilNy.PNG)
@@ -27,5 +28,5 @@ Ved å klikke på en klient får man informasjon om hvilke tilganger den har. Ve
 Man kan legge til en ny tilgang ved å trykke på "Gi ny tilgang"-knappen. Dette krever at det finnes klienter som ikke allerede har tilgang til applikasjonen.
 
 ![Tilgang](img/m2m-tilgang.PNG)
-![TilgangAdministrerTilgang](img/m2m-tilgangAdministrerTilgnag.PNG)
+![TilgangAdministrerTilgang](img\m2m-tilgangAdministrerTilgang.PNG)
 ![TilgangGiNy](img/m2m-tilgangGiNy.PNG)
