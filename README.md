@@ -31,6 +31,10 @@ Applikasjons Administrator er en falk rolle som administrerer en applikasjon og 
 Falk Administrator er en falk rolle som administrerer Falk. Denne rollen kan legge til nye applikasjoner og administere alt inne i falk.
 Det er bare NHN som har denne rollen.
 
+[M2M](Brukerdokumentasjon-m2m.md)
+
+M2M er Maskin til Maskin. Dette styrer tilganger som maskiner har for å komunisere med applikasjoner.
+
 ### Prosedyrer/rutiner 
 
 [Prosedyrer](Prosedyrer.md)
