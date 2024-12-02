@@ -5,13 +5,13 @@
         - `Dette inngår i NHN driftsdok, etableres i forbindelse med bestilling av register.`
         - `Det er opprettet en ny rolle, Applikasjonsadministrator, som kan gi tilgang.`
 
-**Formål:** Fårmålet med denne porsedyren er å sørge for at det altid skal være en Tilgangstildeler for en applikasjon.
+**Formål:** Formålet med denne prosedyren er å sørge for at det altid skal være en Tilgangstildeler for en applikasjon.
 
-**Omfang:**  Personen som setter opp applikasjonen hos NHN og den ansvarlige hos applikasjonen.
+**Omfang:**  Personen som setter opp applikasjonen hos Norsk Helsenett (NHN) og den ansvarlige hos applikasjonen.
 
 **Definisjon:**  Ingen
 
-**Ansvar og Myndighet:** NHN
+**Ansvar og Myndighet:** Norsk Helsenett (NHN)
 
 **Beskrivelse:**
 NHN har ansvaret for å sørge for at de har fått informasjon om hvem som skal være Tilgangstildeler for applikasjonen.
@@ -25,7 +25,7 @@ NHN har ansvaret for å sørge for at de har fått informasjon om hvem som skal 
     - Hyppighet i å bruke portalen og hvem som skal håndtere varsler som sendes fra varslingstjenesten»
         - `Tilgangstilderler`
 
-**Formål:** Fårmålet med denne porsedyren er å beskrive bruke portalen og hvem som skal håndtere varsler som sendes fra varslingstjenesten.
+**Formål:** Formålet med denne prosedyren er å beskrive bruke portalen og hvem som skal håndtere varsler som sendes fra varslingstjenesten.
 
 **Omfang:**  Personen som setter opp applikasjonen hos NHN og den ansvarlige hos applikasjonen.
 
@@ -54,11 +54,11 @@ Per nå gjøres dette løpende per bestilling.
 **Ansvar og Myndighet:** Tilgangstildeler
 
 **Beskrivelse:**
-Tilgangstildeler har ansvaret for at brukere som søker får rett tilgang.
-Hvis det skjer at en bruker får feil tilgang skal Tilgangstildeler fjerne tilgangen som er feil og gi brukeren tilgangen som de skulle ha.
-- Mest sansynlig, bruker sier i fra at de ikke har fått tilgang ditt de skulle hatt
-- Tilgangstildeler kan deretter fjerne og gi brukeren tilgangen som de skulle ha.
-- Tilgangstildeler bør gå gjennom alle brukere å se over at all har de tilgangene de skal har og bare de tilgangene de skal ha.
+Tilgangstildeler har ansvaret for at brukere som søker får tildelt riktig tilgang.
+Hvis det skjer at en bruker er tildelt feil tilgang skal Tilgangstildeler fjerne den tilgangen som er feil og gi brukeren den tilgangen som brukeren skulle hatt.
+- Mest sannsynlig at bruker sier ifra at brukeren ikke har fått den tilgangen brukeren skulle hatt.
+- Tilgangstildeler kan deretter fjerne gitt tilgang og gi brukeren tilgangen som de skulle ha.
+- Tilgangstildeler bør gå gjennom alle brukere å se over at brukerne har de tilgangene de skal ha, og bare de tilgangene de skal ha.
 
 **Referanser og vedlegg:** Ingen
 
@@ -96,8 +96,8 @@ Hvis det skjer at en bruker får feil tilgang skal Tilgangstildeler fjerne tilga
 **Beskrivelse:**
 Tilgangstildeler har ansvar for å fjerne tlganger til brukere som slutter eller flytter.
 Alle tilganger må gå gjennom en gang i året for å sørge for at ingen ble glemt.
-- Tilgangstildeler må legge til et punkt i listen som gjennomgås når en bruker slutter hvor tilganger blir fjernet.
-- Tilgangstildeler bør gå gjennom alle brukere minimum en gang i året og se over at all har de tilgangene de skal har og bare de tilgangene de skal ha.
+- Tilgangstildeler må legge til et punkt i listen som gjennomgås når en bruker slutter, hvor det sjekkes at tilganger brukeren har blir fjernet.
+- Tilgangstildeler bør gå gjennom alle brukere minimum en gang i året og se over at brukere har de tilgangene de skal ha, og bare de tilgangene de skal ha.
 
 **Referanser og vedlegg:** 
 
@@ -126,14 +126,14 @@ Tilgangstildeler har ansvaret for at søknadene som kommer inn for applikasjonen
 
 **Formål:** Formålet med denne prosedyren er å sørge for at ikke hvem som helst kan opprette applikajsoner.
 
-**Omfang:**  NHN
+**Omfang:**  Norsk Helsenett (NHN)
 
 **Definisjon:**  Ingen
 
-**Ansvar og Myndighet:** NHN
+**Ansvar og Myndighet:** Norsk Helsenett (NHN)
 
 **Beskrivelse:** 
-NHN har ansvaret for at bare autoriserte personer har tilgang til falk-admin grensesnittet.
+Norsk Helsenett (NHN) har ansvaret for at bare autoriserte personer har tilgang til Falk Admin-grensesnittet.
 Hemit sender en bestilling for ny applikasjon til NHN og de følger sine rutiner for opprettelse.
 
 **Referanser og vedlegg:** Ingen
@@ -147,7 +147,7 @@ Hemit sender en bestilling for ny applikasjon til NHN og de følger sine rutiner
 
 **Omfang:**  Hemit
 
-**Definisjon:**  Ingne
+**Definisjon:**  Ingen
 
 **Ansvar og Myndighet:** Hemit
 
