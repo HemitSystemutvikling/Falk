@@ -1,25 +1,20 @@
-Hvis du ikke allerede er logget inn vil du komme til innloggingssiden.
+Hvis du ikke allerede er logget inn i Falk vil du få opp innloggingssiden.
+På innloggingssiden kan du velge hvilken påloggingsmetode du vil benytte. 
+![Siden som viser pålogging via STS](img/LoggInnSts.PNG)
 
-![LoggInnSts](img/LoggInnSts.PNG)
+Dersom du logger inn via STS kan du velge ID-PORTEN. Dette åpner en dialog der du kan velge hvilken sikkerhetsmekanisme du vil bruke, for eksempel BankID eller BankID på mobil.
 
-Her trykker du på "ID-PORTEN".
+![Dialogen som viser metoder du kan velge for å logge inn.](img\LoggInnIdp.PNG)
 
-![LoggInnIdp](img/LoggInnIdp.PNG)
+Hvis du velger BankID eller BankId på mobil vil du få instrukser på skjermen som du må følge. 
 
-Deretter trykker du på "BANKID" eller "BANKID PÅ MOBIL" og følger instruksene på skjermen.
+BankId på mobil vil bli brukt i det følgende eksempelet:
+![Dialogen som viser pålogging med BankId på mobil](img\LoggInnBankid.PNG)
 
-Bankid på mobil vil bli brukt i resten av eksempelet.
-
-Fyll ut telefonnummer og fødselsdato og trykk "NESTE".
-
-![LoggInnBankid](img/LoggInnBankid.PNG)
-
-Åpne mobilen og bekreft at referansen er lik den på skjermen og trykk ok og fyll inn din kode.
-
-![LoggInnBankidRef](img/LoggInnBankidRef.PNG)
-
-Etter dette er gjort er du logget inn!
-
-Hvis du har flere roller i registeret vil du få opp en oversikt der du kan velge hvilke rolle du vil logge inn med.
-
-![LoggInnRolleValg](img/LoggInnRolleValg.PNG)
+- I dialogen som vises på skjermen, fyll inn ditt mobiltelefonnummer og fødselsdatoen din i feltene, og velg Neste.
+- På mobiltelefonen din, i meldingen som blir vist fra BankId, bekreft at referansen er lik den du ser på skjermen, velg OK og fyll inn din egen, personlige kode.
+![Dialogen hos BankId som viser referansen du må bekrefte.](img\LoggInnBankidRef.PNG)
+- Etter at du har fylt inn din personlige kode på skjemen, blir logget inn. 
+- Hvis du har mer enn en rolle i registeret vil du få opp en liste som viser rollene og enhetene du har tilgang til. 
+- I listen som viser rollene, velg den rollen på den enheten som du vil logge inn med.
+![Siden som viser roller du har og som du kan velge å logge inn med.](img\LoggInnRolleValg.PNG)
