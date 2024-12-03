@@ -15,7 +15,7 @@ BankId på mobil er valgt påloggingsmetode i det følgende eksempelet:
  - I dialogen som vises på skjermen, fyll inn ditt mobiltelefonnummer og fødselsdatoen din i feltene, og velg Neste.
  - På mobiltelefonen din, i meldingen som blir vist fra BankId, bekreft at referansen er lik den du ser på skjermen, velg OK og fyll inn din egen, personlige kode.
  ![Dialogen hos BankId som viser referansen du må bekrefte.](img\LoggInnBankidRef.PNG)
- - Etter at du har fylt inn din personlige kode på skjemen, blir logget inn. 
+ - Etter at du har fylt inn din personlige kode på skjemen, blir du logget inn. 
  - Hvis du har mer enn en rolle i registeret vil du få opp en liste som viser rollene og enhetene du har tilgang til. 
   - I listen som viser rollene, velg den rollen på den enheten som du vil logge inn med.
 ![Siden som viser roller du har og som du kan velge å logge inn med.](img\LoggInnRolleValg.PNG)
