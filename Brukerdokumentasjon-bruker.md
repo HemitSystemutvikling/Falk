@@ -115,3 +115,10 @@ Har du endret på kontaktinformasjonen, husk å lagre endringene med å klikke L
 Brukerprofilen din viser også rettigheter du har: Nedenfor kontaktinformasjonen vil du ha listen Mine tilganger som viser hvert register (applikasjon) og hvilken rollen du har ved hvilken enhet (avdeling).  
 
 ![Siden som viser bruker-profil med kontaktinformasjon og listen Mine tilganger](img\Falk2.5\BrukerProfil.png)
+
+### __________________
+
+
+>[> Til forsiden i Falk brukerveiledning](README.md)
+
+>[> Til veiledning for innlogging](LoggInn.md)

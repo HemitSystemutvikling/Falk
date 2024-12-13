@@ -1,5 +1,6 @@
-Hvis du ikke allerede er logget inn i Falk vil du få opp innloggingssiden.
-På innloggingssiden kan du velge hvilken påloggingsmetode du vil benytte. 
+# Veiledning for å logge inn i Falk
+Hvis du ikke allerede er logget inn i Falk vil du få opp en innloggingsside.
+På innloggingssiden vil det være en meny som viser forskjellige metoder du kan bruke for å logge. Velg den metoden du vil bruke for å logge inn ved å klikke på den. 
 
 ![Siden som viser pålogging via STS](img/LoggInnSts.PNG)
 
@@ -19,3 +20,8 @@ BankId på mobil er valgt påloggingsmetode i det følgende eksempelet:
  - Hvis du har mer enn en rolle i registeret vil du få opp en liste som viser rollene og enhetene du har tilgang til. 
   - I listen som viser rollene, velg den rollen på den enheten som du vil logge inn med.
 ![Siden som viser roller du har og som du kan velge å logge inn med.](img\LoggInnRolleValg.PNG)
+
+### __________________
+
+
+>[> Til forsiden i Falk brukerveiledning](README.md)

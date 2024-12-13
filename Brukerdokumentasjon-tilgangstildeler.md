@@ -83,3 +83,10 @@ I nedtrekklisten over aktivitetene kan du velge å se bestemte typer logginnslag
 Logginnslagene i aktivtitetsloggen er ordnet etter tidspunkt, og hvert logginnslag kan utvides til å vise mer informasjon om aktiviteten som er gjort. Klikk på raden i oversikten for å utvide og se informasjon om aktiviteten. 
 
 ![Aktivitetslogg der et logginnslag er utvidet og viser mer informasjon om aktivieten.](img\Falk2.5\Tilgangstildeler-AktivitetsloggUtvidetLogginnslag.png)
+
+### __________________
+
+
+>[> Til forsiden i Falk brukerveiledning](README.md)
+
+>[> Til veiledning for innlogging](LoggInn.md)

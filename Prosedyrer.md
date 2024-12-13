@@ -156,4 +156,9 @@ Hemit mottar changelog fra NHN. Endringer må fanges opp av Hemit.
 
 **Referanser og vedlegg:** Ingen
 
----
+### __________________
+
+
+>[> Til forsiden i Falk brukerveiledning](README.md)
+
+>[> Til veiledning for innlogging](LoggInn.md)

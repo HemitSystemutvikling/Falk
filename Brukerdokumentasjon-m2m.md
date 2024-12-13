@@ -90,3 +90,10 @@ N책r det finnes M2M-klienter som har tilgang til applikasjonen, kan du klikke p�
 Velg knappen Administrere tilganger for M2M-klienten for 책 komme til skjemaet for 책 se og endre hvilke tilganger den har. N책r du har valgt knappen Administrer tilganger for en M2M-klient kommer du til skjemaet der du ser navnet til M2M-klienten og informasjon om den. I skjemaet kan du tildele flere tilganger og fjerne tilganger M2M-klienten har til applikasjonen.
 
 ![Skjema for 책 administrere tilgang for M2M-klienten med felt for 책 legge til rolle- og avdelingskombinasjoner og for 책 fjerne eksisterende tilgang.](img\Falk2.5\m2m-TilgangAdministrer3.png)
+
+### __________________
+
+
+>[> Til forsiden i Falk brukerveiledning](README.md)
+
+>[> Til veiledning for innlogging](LoggInn.md)

@@ -37,4 +37,6 @@ M2M er Maskin-til-Maskin-klienter. Dette styrer tilganger som maskiner har for Ã
 
 ### [Prosedyrer](Prosedyrer.md)
 
+### __________________
 
+>[> Til veiledning for innlogging](LoggInn.md)

@@ -13,13 +13,11 @@ Tilgangstildelere
 Importere preautoriserte søknader
 
 Applikasjonsadministrator, AppAdmin, har samme rettigheter som en [Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
-I tillegg har Applikasjonsadministrator tilgang til å se og administrere tilgangstildelere for applikasjoner, og til å importere forhåndsautoriserte søknader om tilgang. 
-Det vil si at når du er Applikasjonsadministator i Falk og åpner en applikasjon, ser du fanen Tilgangsdelere og Importer Preautoriserte Søknader i tillegg til fanene Egenskaper, Søknader og Tilgang. 
+I tillegg har Applikasjonsadministrator tilgang til å se og administrere tilgangstildelere for applikasjoner, og til å importere forhåndsautoriserte søknader om tilgang. Det vil si at når du er Applikasjonsadministator i Falk og åpner en applikasjon, ser du fanen Tilgangsdelere og Importer Preautoriserte Søknader i tillegg til fanene Egenskaper, Søknader og Tilgang. 
 
 
 ## Applikasjoner
 ### Tilgang  
-
 Når du velger fanen Tilgang får du opp en oversikt som viser brukere som har tilgang til applikasjonen. 
 Merk at denne oversikten blir vist i en egen fane som heter Brukere, med en fane som heter M2M-klienter i bakgrunnen, når pålogget bruker er en FALK Administrator.
 
@@ -38,7 +36,8 @@ Når du velger funksjonen kan du hente ut oversikt over alle brukere per applika
 I fanen Tilgang har du mulighet til å hente ut en liste som viser de brukerne som har hatt tilgang til applikasjonen i en bestemt periode. 
 
 Når du velger funksjonen Last ned tilgangshistorikk åpnes et skjema for å velge hvilken enhet du vil se historikk for og felt for å velge fra-dato og til-dato. 
-Når du har valgt alle enheter eller en bestemt enhet og valgt datoer, velger du Last ned og kan får en fil i CSV-format som viser brukere som har hatt tilgang til applikasjonen. 
+
+Når du har valgt alle enheter eller en bestemt enhet, og valgt en periode ved å velge fra-dato og til-dato, så velger du Last ned. Dette genererer en fil i CSV-format. Denne filen viser brukere som har hatt tilgang til applikasjonen på den enheten eller alle enheter, i den perioden du har valgt. 
 
 Merk at tilgangstildelere ikke er inkludert i tilgangshistorikk. En oversikt som viser tilgangstildelere har du mulighet til å laste ned i fanen Tilgangstildelere. 
 
@@ -134,3 +133,10 @@ Et eksempel på et json-objekt kan være følgende:
 Når du har lagt inn et json-objekt i tekstboksen og velger Lagre, vil du se en tilbakemelding skjermen når importen er utført.
 
 ![Bekreftelse på vellykket import av preautoriserte søknader.](img\Falk2.5\AppAdmin-ImporterPreautoriserteSøknader_Vellykket.png)
+
+### __________________
+
+
+>[> Til forsiden i Falk brukerveiledning](README.md)
+
+>[> Til veiledning for innlogging](LoggInn.md)
