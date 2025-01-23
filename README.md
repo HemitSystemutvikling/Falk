@@ -1,4 +1,7 @@
-# Falk
+
+# <a name='Falk'></a>Falk
+
+---
 
 ### Formålet med Falk
 Falk skal fungere som en felles autoriseringsløsning for de nasjonale kvalitetsregistrene på plattformene
@@ -13,30 +16,34 @@ Vi tar i bruk HelseID som kilde til identiteter og vi skal sikre at tilgangssøk
 
 På sikt vil HelseID tilby fødererte identiteter fra alle identitetsleverandører med kobling til Helsenettet. Når dette er etablert vil vi kunne tilby «single sign-on» til alle kvalitetsregistrene. På kort sikt må vi håndtere identiteter i Falk. Pålogging her gjelder også internasjonale brukere.
 
+---
 
 ### Brukerdokumentasjon 
-Veiledningene som forklarer hvordan du kan navigere og bruker Falk er delt inn i flere sider som vises nedenfor. Klikk på navnet til den veiledningen du vil ha, for å få opp veiledningen: 
+Veiledningene som forklarer hvordan du kan navigere og bruker Falk er delt inn i flere sider som vises nedenfor. 
+Klikk på navnet til den veiledningen du vil ha, for å få opp siden med veiledningen. 
 
-#### [> Veiledning for innlogging](LoggInn.md)
+#### [* Veiledning for innlogging](LoggInn.md)
 Enkel veiledning for å logge inn. 
 
-#### [> Brukerveiledning - Brukere i Falk](Brukerdokumentasjon-bruker.md)
+#### [* Brukerveiledning - Brukere i Falk](Brukerdokumentasjon-bruker.md)
 Bruker er en rolle i Falk som de fleste som logger inn i Falk kommer til å ha. Rollen Bruker vil ha mulighet til å søke om tilgang og logge inn på applikasjoner (registre).
 
-#### [> Brukerveiledning - Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
+#### [* Brukerveiledning - Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
 Tilgangstildeler er en rolle i Falk som kan tildeles de som skal behandle søknader om tilgang som er sendt inn av brukere, og til å gi disse rett tilgang til roller ved enheter/avdelinger.
 
-#### [> Brukerveiledning - Applikasjonsadministrator](Brukerdokumentasjon-applikasjonsadmin.md)
-Applikasjonsadministrator, også kalt AppAdmin er en rolle i Falk som gis til de som skal administrere en applikasjon (register) og som kan bestemme hvem som skal ha rollen Tilgangstildeler for applikasjoner.
+#### [* Brukerveiledning - Applikasjonsadministrator](Brukerdokumentasjon-applikasjonsadmin.md)
+Applikasjonsadministrator, også kalt AppAdmin, er en rolle i Falk som gis til de som skal administrere en applikasjon (register) og som kan bestemme hvem som skal ha rollen Tilgangstildeler for applikasjoner.
 
-#### [> Brukerveiledning - Falk Administrator](Brukerdokumentasjon-falkadmin.md)
+#### [* Brukerveiledning - Falk Administrator](Brukerdokumentasjon-falkadmin.md)
 Falk Administrator er en rolle for de som administrerer Falk. Denne rollen kan legge til nye applikasjoner og administere alt inne i Falk. Det er bare Norsk Helsenett, NHN, som har denne rollen.
 
-#### [> Brukerveiledning - M2M-klienter](Brukerdokumentasjon-m2m.md)
+#### [* Brukerveiledning - M2M-klienter](Brukerdokumentasjon-m2m.md)
 M2M er Maskin-til-Maskin-klienter. Dette styrer tilganger som maskiner har for å komunisere med applikasjoner.
 
-### [Prosedyrer](Prosedyrer.md)
+#### [* Prosedyrer](Prosedyrer.md)
 
-### __________________
+---
 
->[> Til veiledning for innlogging](LoggInn.md)
+>[ Til veiledning for innlogging](LoggInn.md)
+
+>[ Til toppen av denne siden](#falk)

@@ -1,24 +1,33 @@
-# Brukerveiledning for Bruker
 
-## Innholdsliste:
-Innlogging
-Søk om tilgang
-Falk generelt
-- Menyen
-Registeroversikt 
-- Merke et register som favoritt
-Mine tilganger
-Mine søknader
-Min aktivitet
-Applikasjoner
-Administrere
-Bruker-profil
+# <a name= 'Brukerveiledning for brukere'></a>Brukerveiledning for brukere
 
+INNHOLDSLISTE
+<!-- vscode-markdown-toc -->
+* [Innlogging](#Innlogging)
+* [Søk om tilgang](#Skomtilgang)
+* [Falk generelt](#Falkgenerelt)
+	* [Menyen](#Menyen)
+* [Registeroversikt](#Registeroversikt)
+	* [Merke et register som favoritt](#Merkeetregistersomfavoritt)
+* [Mine tilganger](#Minetilganger)
+* [Mine søknader](#Minesknader)
+* [Min aktivitet](#Minaktivitet)
+* [Bruker-profil](#Bruker-profil)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+---
 
 ## Innlogging
 [Klikk her for veiledning for innlogging.](LoggInn.md)
 
-## Søk om tilgang
+## Bruker i Falk
+
+## <a name='Skomtilgang'></a>Søk om tilgang
 I Falk kan du gå til direkte til et register ved å velge registeret i listen som viser alle registre. Når du klikker på registerert i listen utvides det og viser knapper for å søke tilgang og for å gå til registeret. 
 For å gå direkte til registeret, velg Gå til registeret. 
 
@@ -43,8 +52,8 @@ Søknadene er ordnet etter søknadsdato med den nyeste søknaden øverst. Hver r
 - Rød farge: Søknaden er avvist av en tilgangstildeler og status er Avslått.
 - Grønn farge: Søknaden er behandlet og du har fått tildelt den tilgangen du har søkt om, og status er Godkjent.
 
-## Falk generelt
-### Menyen
+## <a name='Falkgenerelt'></a>Falk generelt
+### <a name='Menyen'></a>Menyen
 Når du har logget inn i Falk har du en meny øverst på skjermen. Menyen viser Falk-logoen til venstre og på høyre side vises navnet ditt, knappen Logg ut og et ikon med spørsmålstegn helt til høyre. 
 
 Du kan klikke på navnet ditt til på menyen for å få opp din bruker-profil.
@@ -63,7 +72,7 @@ Under menyen vil du se forskjellige faner som gir deg tilgang til oversikter og 
 
 Når du velger en fanen blir den åpnet som en ny side eller skjema i Falk. 
 
-## Registeroversikt
+## <a name='Registeroversikt'></a>Registeroversikt
 Registeroversikt er den første siden du kommer til når du logger inn i Falk. Dette er en fane som viser alle applikasjonene (registrene) som finnes i Falk. 
 
 Øverist i registeroversikten har du et søkefelt. Når du begynner å skrive i søkefeltet blir registeroversikten oppdatert til å vise applikasjoner (registre) og applikasjonskategorier som samsvarer med det du har skrevet i feltet. 
@@ -77,13 +86,13 @@ For å lukke en applikasjonskategori og bare se navnet til applikasjonskategorie
 
 Hvert register i en appliksjonskategori blir vist med navnet til registerert (applikasjonen) sammen med en stjerne ved siden av navnet. 
 
-### Merke et register som favoritt
+### <a name='Merkeetregistersomfavoritt'></a>Merke et register som favoritt
 Når du klikker på stjernen ved siden av et registernavn, blir registerert merket som en favoritt, stjernen blir fylt med farge og registerert blir vist øverst i registeroversikten. 
 For å fjerne en favorittmerking for et register klikker du på stjernen slik at den ikke lenger er fylt og blir vist uten farge. 
 
 ![Registeroversikt som viser søkefelt og en favoritt-merket applikasjon øverst.](img\Falk2.5\RegisteroversiktMedFavoritt.png)
 
-## Mine tilganger
+## <a name='Minetilganger'></a>Mine tilganger
 Fanen Mine tilganger viser en oversikt over hvilke applikasjoner (registre) du har tilgang til. Hvert register vises som en rad i oversikten. 
 
 ![Oversikten i fanen Mine tilganger som viser alle registre brukeren har tilgang til](img\Falk2.5\MineTilgangerOversikt.png)
@@ -92,12 +101,12 @@ Når du klikker på raden for et register blir den utvidet til å vise hvilke ti
 
 ![Oversikten i fanen Mine tilganger som viser et register som er utvidet til å vise roller og enheter brukeren er tildelt.](img\Falk2.5\MineTilgangerOversiktValgtRegister.png)
 
-## Mine søknader
+## <a name='Minesknader'></a>Mine søknader
 I fanen Mine søknader har du en oversikt over søknader du har sendt inn. For hver søknad kan blir det vist informasjon om når du søkte og status på søknaden. Hvis en søknaden er behandlet står det når den ble behandlet, og hvis søknaden ble avvist kan det stå en kommentar.
 
 ![Oversikten i fanen Mine Søknader.](img\Falk2.5\MineSøknader.png)
 
-## Min aktivitet
+## <a name='Minaktivitet'></a>Min aktivitet
 Fanen Min aktivitet er en logg som viser aktiviteten din i Falk. Aktiviteter som blir loggført og vise i aktivitetsloggen her omfatter rettigheter som er lagt til, som er endret eller som har blitt slettet. I tillegg kan du finne når du har logget på og logget av applikasjoner (registre) som du har tilgang til.
 Øverst i aktivitetsloggen har du en nedtrekksmeny som du gir deg mulighet til å vise alle aktiviteter eller bestemte typer aktivieteter, for eksempel Rettigheter lagt til eller Rettigheter slettet.
 
@@ -105,7 +114,7 @@ Fanen Min aktivitet er en logg som viser aktiviteten din i Falk. Aktiviteter som
 
 Noen aktiviteter som blir vist i loggen kan utvides til å vise mer informasjon. En slik aktivitet blir vist med en pil helt til venstre på raden for aktiviteten. Klikk raden for å utvide den og få tilgang til informasjonen.
 
-## Bruker-profil
+## <a name='Bruker-profil'></a>Bruker-profil
 For å se din bruker-profil kan du klikke navnet ditt som er vist til høyre på menyen. 
 
 Bruker-profilen viser kontaktinformasjonen som er registrert på din bruker. Under kontaktinformasjonen vises knappen Endre informasjon. For å oppdatere din kontaktinformasjon kan du klikke på knappen og få opp et skjema for å oppdatere mobilnummer og epostadresse, og velge om du vil ha epostvarsling aktivert eller deaktivert. Merk at hvis du velger å slå av epost-varsling vil du ikke lenger motta noen eposter om behandlede søknader. 
@@ -116,9 +125,22 @@ Brukerprofilen din viser også rettigheter du har: Nedenfor kontaktinformasjonen
 
 ![Siden som viser bruker-profil med kontaktinformasjon og listen Mine tilganger](img\Falk2.5\BrukerProfil.png)
 
-### __________________
+---
 
+Mer informasjon og veiledninger:
 
->[> Til forsiden i Falk brukerveiledning](README.md)
+>[ Til forsiden i Falk brukerveiledning](README.md)
 
->[> Til veiledning for innlogging](LoggInn.md)
+>[ Veiledning for innlogging](LoggInn.md)
+
+>[ Brukerveiledning for App Admin](Brukerdokumentasjon-applikasjonsadmin.md)
+
+>[ Brukerveiledning for Bruker](Brukerdokumentasjon-bruker.md)
+
+>[ Brukerveiledning for Falk Administrator](Brukerdokumentasjon-falkadmin.md)
+
+>[ Brukerveiledning for M2M-klienter](Brukerdokumentasjon-m2m.md)
+
+>[ Brukerveiledning for Tilgangstildelere](Brukerdokumentasjon-tilgangstildeler.md)
+
+>[ Til toppen av denne siden](#brukerveiledning-for-brukere)

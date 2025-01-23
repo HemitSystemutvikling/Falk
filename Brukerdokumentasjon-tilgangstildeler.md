@@ -1,18 +1,32 @@
-# Brukerveiledning for Tilgangstildeler
 
+# <a name= 'Brukerveiledning for tilgangstildeler'></a>Brukerveiledning for tilgangstildeler
+
+
+INNHOLDSLISTE
+<!-- vscode-markdown-toc -->
+* [Søknader](#Sknader)
+* [Tilgang](#Tilgang)
+* [Aktivitetslogg](#Aktivitetslogg)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+---
+
+## Innlogging
 [Klikk her for veiledning for innlogging.](LoggInn.md)
 
-## Innholdsliste:
-Søknader
-Tilgang
-Aktivitetslogg
+## Tilgangstildeler
 
-Som Tilgangstildeler i Falk har du tilgang til en fane som heter Applikasjoner.  
+Som Tilgangstildeler som har logget inn i Falk, har du tilgang til en fane som heter Applikasjoner.  
 Når du velger fanen Applikasjoner finner du en liste som viser alle applikasjonene du har rollen Tilgangstildeler for. Hver applikasjon blir vist som en rad i oversikten, med kolonner som viser hver applikasjon sitt applikasjonsnavn, scopenavn og en kolonne som viser en hake hvis applikasjonen krever autorisasjon. 
 
 ![Tilgangstildeler Applikasjoner-oversikt.](img\Falk2.5\Tilgangstildeler-ApplikasjonerOversikt.png)
 
-## Søknader
+## <a name='Sknader'></a>Søknader
 Når du velger å åpne en applikasjon, har du tilgang til fanen som heter Søknader. Tallet ved siden av navnet på fanen viser det antallet søknader som venter på å bli behandlet. 
 
 Velger du fanen Søknader kommer du til en liste som  viser søknader om tilgang som til applikasjonen. Dette er søknader som er sendt inn av personer som ber om å få tilgang til applikasjonen med en rolle ved en avdeling eller enhet. 
@@ -48,7 +62,7 @@ Knappene for å behandle søknaden er:
 Når du har godkjent en søknad blir søknaden vist sammen med informasjon om at søknaden er godkjent. Hvis du åpner fanen som viser søknader igjen, vil du se at søknaden du nettopp har behandlet ikke lenger blir vist i listen. 
 
 
-## Tilgang
+## <a name='Tilgang'></a>Tilgang
 Når du velger fanen som heter Tilgang får du en oversikt som viser alle brukere som har tilgang til applikasjonen. Hver bruker vises som en rad i oversikten sammen med kontaktinformasjon, hvilken avdeling og rolle personen har tilgang til, og med en knapp for å administrere tilgangen brukeren har. 
 
 Oversikten har søkefelt for å søke etter en person og mulighet for å begrense søket ved å velge hvilken enhet (avdeling) og rolle du vil søke opp. 
@@ -71,7 +85,7 @@ Ut ifra de tilgangene du ser at brukeren har kan du gi brukeren tilgang til roll
 
 For å gå tilbake og se oversikten over brukerne igjen, kan du velge Administrer brukertilganger øverst på siden. 
 
-## Aktivitetslogg
+## <a name='Aktivitetslogg'></a>Aktivitetslogg
 Når du velger fanen som heter Aktivitetslogg for en applikasjon, får du en oversikt som viser aktiviteter som er gjort for applikasjonen. 
 
 ![Aktivitetslogg-oversikten som viser aktiviteter som rader i en liste.](img\Falk2.5\Tilgangstildeler-Aktivitetslogg.png)
@@ -84,9 +98,19 @@ Logginnslagene i aktivtitetsloggen er ordnet etter tidspunkt, og hvert logginnsl
 
 ![Aktivitetslogg der et logginnslag er utvidet og viser mer informasjon om aktivieten.](img\Falk2.5\Tilgangstildeler-AktivitetsloggUtvidetLogginnslag.png)
 
-### __________________
+---
+Mer informasjon og veiledninger:
 
+>[ Til forsiden på Falk brukerveiledning](README.md)
 
->[> Til forsiden i Falk brukerveiledning](README.md)
+>[ Veiledning for innlogging](LoggInn.md)
 
->[> Til veiledning for innlogging](LoggInn.md)
+>[ Brukerveiledning for App Admin](Brukerdokumentasjon-applikasjonsadmin.md)
+
+>[ Brukerveiledning for Bruker](Brukerdokumentasjon-bruker.md)
+
+>[ Brukerveiledning for Falk Administrator](Brukerdokumentasjon-falkadmin.md)
+
+>[ Brukerveiledning for M2M-klienter](Brukerdokumentasjon-m2m.md)
+
+>[ Til toppen av denne siden](#brukerveiledning-for-tilgangstildeler)

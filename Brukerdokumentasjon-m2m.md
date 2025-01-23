@@ -1,15 +1,28 @@
-# Brukerveiledning for M2M-klienter
 
+# <a name='Brukerveiledning - M2M-klienter'></a>Brukerveiledning - M2M-klienter
+
+
+INNHOLDSLISTE
+<!-- vscode-markdown-toc -->
+* [M2M-klienter](#M2M-klienter)
+* [API-ressurser](#API-ressurser)
+	* [Legg til ny API-ressurs](#LeggtilnyAPI-ressurs)
+* [Tilgang](#Tilgang)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+---
+
+## Innlogging
 [Klikk her for veiledning for innlogging.](LoggInn.md)
-
-## Innholdsliste:
-M2M-klienter
-API-ressurser
-Tilgang
 
 Det er bare Falk Administrator som kan sette opp og aktivere Maskin til Maskin-klienter.
 
-## M2M-klienter
+## <a name='M2M-klienter'></a>M2M-klienter
 Falk Admininistrator har et menyvalg i fanen Administrere for å se og administrere maskin til maskin-klienter: M2M-klienter. 
 
 Når du velger M2M-klienter vil du få en oversikt som viser M2M-klientene i Falk. 
@@ -42,13 +55,14 @@ Du kan se mer informasjon om hvert innslag i Aktivitetslogg ved å klikke på de
 ![Aktivitetslogg for en M2M-klient som viser innslag .](img\Falk2.5\m2m-klient-AktivitetsloggKlientModifisert_Utvidet.png)
 
 
-## API-ressurser
+## <a name='API-ressurser'></a>API-ressurser
 Falk Admininistrator har tilgang til et menyvalg i fanen Administrere som heter API-ressurser. Når du velger API-ressurser kommer du til en oversikt som viser de API-ressursene som finnes i Falk, sammen med funksjonen for å legge til en ny API-ressurs. 
 
 Hver API-ressurs blir vist i en oversikt og er ordnet etter navnet på API-ressursen. Ett eller flere scopes som er registrert for API-ressursen blir vist, sammen med en knapp for å slette den. Hvis en API-ressurs har scopes som er inaktive, er dette vist i listen. 
 
 ![Oversikt som viser API-ressurser med aktive og inaktive scopes i Falk.](img\Falk2.5\m2m-API-ressurser.png)
 
+### <a name='LeggtilnyAPI-ressurs'></a>Legg til ny API-ressurs
 Som Falk Administrator kan du legge til ny API-ressurs ved å velge knappen Legg til ny API-ressurs og få opp et skjema for å opprette ny API-ressurs i Falk.
 
 I skjemaet for å legge til ny API-ressurs kan du fylle ut navn, visningsnavn og bestemme om denne API-ressursen skal være aktiv. 
@@ -63,9 +77,9 @@ Du har mulighet til å registrere flere scopes med visningsnavn. Vil du ta bort 
 
 For å få korrekte scopes, ta kontakt med Hemit systemutvikling: [systemutvikling@hemit.no](mailto:systemutvikling@hemit.no).
 
-Når du har lagt til API-ressursen og registrert scopes for den lagrer du ved å klikke Lagre. API-ressursen du har lagt til blir vist i oversikten API-ressurser.
+Når du har lagt til API-ressursen og registrert scopes for den, lagrer du ved å klikke Lagre. API-ressursen du har lagt til blir vist i oversikten API-ressurser.
 
-## Tilgang
+## <a name='Tilgang'></a>Tilgang
 Falk Administrator har tilgang å administrere M2M-klienter for hver applikasjon. Dette gjøres via fanen Tilgang i applikasjonen. 
 
 I applikasjonen du vil administrere, velg fanen Tilgang. Når fanen Tilgang blir åpnet og viser fanen Brukere i fokus, velger du fanen M2M-klienter som ligger i bakgrunnen. 
@@ -73,7 +87,8 @@ I applikasjonen du vil administrere, velg fanen Tilgang. Når fanen Tilgang blir
 
 ![Oversikten som viser en M2M-klient som har tilgang til applikasjonen.](img\Falk2.5\m2m-TilgangAdministrer.png)
 
-Fanen M2M-klienter viser de M2M-klientene som har en eller flere tilganger til applikasjonen sammen med en knapp for å gi M2M-klienter tilgang. Dersom det ikke er gitt noen M2M-klienter tilgang til applikasjonen viser fanen informasjon om dette. 
+Fanen M2M-klienter viser de M2M-klientene som har en eller flere tilganger til applikasjonen sammen med en knapp for å gi M2M-klienter tilgang. 
+Dersom det ikke er gitt noen M2M-klienter tilgang til applikasjonen viser fanen informasjon om dette. 
 
 ![Tilgang](img\Falk2.5\m2m-tilgang.png)
 
@@ -87,13 +102,24 @@ Når det finnes M2M-klienter som har tilgang til applikasjonen, kan du klikke p�
 
 ![Oversikten som viser en valgt M2M-klient og knappen Administrere Tilganger.](img\Falk2.5\m2m-TilgangAdministrer2.png)
 
-Velg knappen Administrere tilganger for M2M-klienten for å komme til skjemaet for å se og endre hvilke tilganger den har. Når du har valgt knappen Administrer tilganger for en M2M-klient kommer du til skjemaet der du ser navnet til M2M-klienten og informasjon om den. I skjemaet kan du tildele flere tilganger og fjerne tilganger M2M-klienten har til applikasjonen.
+Velg knappen Administrere tilganger for M2M-klienten for å komme til skjemaet for å se og endre hvilke tilganger den har. Når du har valgt knappen Administrer tilganger for en M2M-klient, kommer du til skjemaet der du ser navnet til M2M-klienten og informasjon om den. I skjemaet kan du tildele flere tilganger og fjerne tilganger M2M-klienten har til applikasjonen.
 
 ![Skjema for å administrere tilgang for M2M-klienten med felt for å legge til rolle- og avdelingskombinasjoner og for å fjerne eksisterende tilgang.](img\Falk2.5\m2m-TilgangAdministrer3.png)
 
-### __________________
+---
 
+Mer informasjon og veiledninger:
 
->[> Til forsiden i Falk brukerveiledning](README.md)
+>[ Til forsiden i Falk brukerveiledning](README.md)
 
->[> Til veiledning for innlogging](LoggInn.md)
+>[ Veiledning for innlogging](LoggInn.md)
+
+>[ Brukerveledning for App Admin](Brukerdokumentasjon-applikasjonsadmin.md)
+
+>[ Brukerveledning for Bruker](Brukerdokumentasjon-bruker.md)
+
+>[ Brukerveledning for Falk Administrator](Brukerdokumentasjon-falkadmin.md)
+
+>[ Brukerveledning for Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
+
+>[ Til toppen av denne siden](#brukerveiledning---m2m-klienter)

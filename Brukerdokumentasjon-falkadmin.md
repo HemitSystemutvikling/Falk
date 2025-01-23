@@ -1,22 +1,35 @@
-# Brukerveiledning for Falk Administrator
 
+# <a name='Brukerveiledning for Falk Administrator'></a>Brukerveiledning for Falk Administrator
+
+
+INNHOLDSLISTE
+<!-- vscode-markdown-toc -->
+* [Varsler](#Varsler)
+* [Brukere](#Brukere)
+	* [Søk etter brukere](#Sketterbrukere)
+	* [Deaktivere og reaktivere brukere](#Deaktivereogreaktiverebrukere)
+* [M2M-Klienter](#M2M-Klienter)
+* [API-ressurser](#API-ressurser)
+* [Registerkategorier](#Registerkategorier)
+* [Applikasjoner](#Applikasjoner)
+	* [Legg til ny applikasjon](#Leggtilnyapplikasjon)
+	* [Egenskaper](#Egenskaper)
+	* [Klienter](#Klienter)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+---
+
+## Innlogging
 [Klikk her for veiledning for innlogging.](LoggInn.md)
 
-## Innholdsliste: 
-Varsler
-Brukere
-- Deaktivere og reaktivere brukere
-M2M-klienter
-API-ressurser
-Registerkategorier
-Applikasjoner
-- Legg til ny applikasjon
-- Egenskaper
-- Klienter 
+## Falk Administrator
 
-
-Falk Admininistrator har samme rettigheter som en [Applikasjonsadministrator](Brukerdokumentasjon-applikasjonsadmin.md)
-I tillegg har Falk Administrator en fane i Falk som heter Administrere. Velg fanen Administrere for å se og velge hva du vil administrere: 
+Som Falk Admininistrator har du samme rettigheter som en [Applikasjonsadministrator](Brukerdokumentasjon-applikasjonsadmin.md). I tillegg har Falk Administrator en fane i Falk som heter Administrere. Velg fanen Administrere for å se og velge hva du vil administrere: 
 - Varsler
 - Brukere
 - M2M-klienter
@@ -27,7 +40,7 @@ I tillegg har Falk Administrator en fane i Falk som heter Administrere. Velg fan
 
     ![Menyen i fanen Administrere.](img\Falk2.5\FalkAdmin-Administrere.png)
 
-## Varsler
+## <a name='Varsler'></a>Varsler
 Når du velger Varsler i Administrer-menyen, kommer du til en oversikt over varsler som er satt opp i Falk.
 Disse varslene kan blir vist til alle brukere i Falk, hvis varslene er aktive.
 Du har muligheten til å Legge til varsler, og til å endre og slette varsler herfra.
@@ -39,7 +52,7 @@ Klikk knappen Legg til nytt varsel for å opprette et nytt varsel. Skriv teksten
 ![Skjemaet for å legge til et varsel.](img\Falk2.5\FalkAdmin-VarselLeggTil.png)
 
 
-## Brukere
+## <a name='Brukere'></a>Brukere
 Når du velger menypunktet Brukere kommer du til en side med et søke-felt hvor du kan skrive inn navn og søke opp brukere i Falk. 
 
 Over søkefeltet er det knapper for å laste ned en liste som kan vise alle administratorer og alle tilgangstildelere i Falk. Denne listen er en fil i CSV-format.  
@@ -47,8 +60,9 @@ Over søkefeltet er det knapper for å laste ned en liste som kan vise alle admi
 ![Siden som viser brukere med søkefelt for å søke oppbrukere i Falk.](img\Falk2.5\FalkAdmin-Brukere_Søk.PNG)
 
 
-### Søk etter brukere 
-For å søke etter en eller flere brukere på siden som viser brukere, må du skrive inn minst 3 tegn i feltet for å få et søkeresultat. Du kan søke på navn, epostadresse eller telefonnummer. 
+### <a name='Sketterbrukere'></a>Søk etter brukere 
+For å søke etter en eller flere brukere på siden som viser brukere, må du skrive inn minst 3 tegn i feltet for å få et søkeresultat. 
+Du kan søke på navn, epostadresse eller telefonnummer. 
 
 Hvis du får treff på søket ditt, blir det vist i en liste. Klikk den brukeren i listen som du vil gå inn på. 
 
@@ -57,21 +71,23 @@ Hvilke tilganger brukeren har og hvilke søknader brukeren har sendt blir vist i
 
 ![Skjema for å se og endre bruker i Falk.](img\Falk2.5\FalkAdmin-Bruker-admin.png)
 
-### Deaktivere og reaktivere brukere
+### <a name='Deaktivereogreaktiverebrukere'></a>Deaktivere og reaktivere brukere
 Falk Administrator har tilgang til å utsette deaktivering av tilganger og reaktivere tilganger som har blitt deaktivert for en bruker. Disse aktivitetene blir loggført som aktiviteter i Aktivitetsloggen for applikasjonen.  
 
-[Klikk her å gå til veiledningen for å deaktivere og reaktivere brukere i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#L45-L46)
+[Klikk her å gå til veiledningen for å deaktivere og reaktivere brukere i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Deaktivere-og-reaktivere-brukere)
 
 
-## M2M-Klienter
-For å se og administrere M2M-klienter, maskin-til-maskin-klienter, kan du velge M2M-klienter under Administrere. Du kan lese mer om funksjonaliteten ved å klikke på lenken [M2M](Brukerdokumentasjon-m2m.md)
+## <a name='M2M-Klienter'></a>M2M-Klienter
+For å se og administrere M2M-klienter, maskin-til-maskin-klienter, kan du velge M2M-klienter under Administrere. 
+Du kan lese mer om funksjonaliteten ved å klikke på lenken [Brukerveiledning - M2M](Brukerdokumentasjon-m2m.md##M2Mklienter)
 
 
-## API-ressurser
-For å se og administrere API-ressurser i Falk, kan du velge API-ressurser under Aministrere. Dette kan du lese mer om ved å klikke på lenken [M2M](Brukerdokumentasjon-m2m.md)
+## <a name='API-ressurser'></a>API-ressurser
+For å se og administrere API-ressurser i Falk, kan du velge API-ressurser under Aministrere. 
+Dette kan du lese mer om ved å klikke på lenken [Brukerveiledning - M2M](Brukerdokumentasjon-m2m.md##API-ressurser)
 
 
-## Registerkategorier
+## <a name='Registerkategorier'></a>Registerkategorier
 Når du velger Registerkategorier finner du en liste som viser kategorier hver applikasjon i Falk kan bli ordnet inn i.
 
 ![Registerkategorier-listen.](img\Falk2.5\FalkAdmin-Registerkategorier.png)
@@ -81,16 +97,17 @@ Som Falk Administrator har du mulighet til å legge til nye registerkategorier o
 ![Skjema for å legge til registerkategori.](img\Falk2.5\FalkAdmin-RegisterkategorierLeggTil.png)
 
 
-## Applikasjoner 
+## <a name='Applikasjoner'></a>Applikasjoner 
 Som Falk Administrator har du oversikt over alle applikasjoner (registre) og kan admininstrere dem. Oversikten får du tilgang til når du velger fanen Applikasjoner på menyen. 
 
-Over listen som viser applikasjoner vil du få et søke-felt. I søke-feltet kan du skrive inn navn og søke opp en bestemt applikasjon. Du kan velge å vise applikasjonene i listen i stigende eller fallende rekkefølge ved å klikke på pilene ved siden av Applikasjonsnavn og Scopenavn.
+Over listen som viser applikasjoner vil du få et søke-felt. I søke-feltet kan du skrive inn navn og søke opp en bestemt applikasjon. 
+Du kan velge å vise applikasjonene i listen i stigende eller fallende rekkefølge ved å klikke på pilene ved siden av Applikasjonsnavn og Scopenavn.
 
 ![Applikasjoner-listen med søkefelt.](img\Falk2.5\FalkAdmin-Applikasjoner.png)
 
 For å se og administrere en bestemt applikasjon kan du klikke på raden for applikasjonen i oversikten. 
 
-### Legg til ny applikasjon
+### <a name='Leggtilnyapplikasjon'></a>Legg til ny applikasjon
 Som Falk Administrator kan du legge til nye applikasjoner i Falk. Dette kan du gjøre ved å velge knappen Legg til ny applikasjon i Applikasjoner-oversikten.
 
 ![Legg til ny applikasjon-knapp.](img\FalkAdmin-LeggTilNyApplikasjonKnapp.PNG)
@@ -105,29 +122,42 @@ Applikasjonen du har lagt til kan du finne i Applikasjoner-oversikten med navnet
 
 ![Oversikten som viser applikasjoner i Falk.](img\Falk2.5\FalkAdmin-Applikasjoner.png)
 
-### Egenskaper
+### <a name='Egenskaper'></a>Egenskaper
 
-Når du velger en applikasjon i Applikasjoner-oversikten og klikker på den slik at du åpner den, vil du komme til en fane som heter Egenskaper i fokus, og ha fane som heter Klienter i bakgrunnen. Fanen Egenskaper viser informasjon og innstillinger for  applikasjonen. Disse kan du redigere ved å klikke Endre-knappen. 
+Når du velger en applikasjon i Applikasjoner-oversikten og klikker på den slik at du åpner den, vil du komme til en fane som heter Egenskaper i fokus, og ha fane som heter Klienter i bakgrunnen. 
+Fanen Egenskaper viser informasjon og innstillinger for  applikasjonen. Disse kan du redigere ved å klikke Endre-knappen. 
 
 ![Applikasjon med fanen Egenskaper i fokus.](img\Falk2.5\FalkAdmin-Applikasjon_EgenskaperEndre.png)
 
 Når du har gjort endringene du ville gjøre på applikasjonen, kan du lagre dem ved å klikke Lagre. Etter at du har lagret får du en bekreftelse på skjermen om at applikasjonen er oppdatert. 
 
-### Klienter
+### <a name='Klienter'></a>Klienter
 Det er også en fane bak fanen Egenskaper, og det er fanen Klienter. I denne fanen kan du se klienter som er lagt til for applikasjonen og du kan du legge nye klienter. 
 
 For hver klient er det knapper for å åpne klienten og gjøre endringer på den, for å sette at en klient er registrert uri, og for å slette klienten.
 
 ![Applikasjon med fanen Klienter i fokus.](img\Falk2.5\FalkAdmin-Applikasjon_Klienter.png)
 
-Når du velger knappen Legg til klient får du opp et skjema med felt du må fylle ut for å legge til den nye klienten. Når feltene er fylt ut klikker du Legg til i skjemaet for å lukke skjemaet og legge til klienten. Den nye klienten du har lagt til blir vist i listen i fanen Klienter. 
-Pass på å klikke Lagre-knappen for å lagre klienter du har lagt til  applikasjonen. 
+Når du velger knappen Legg til klient får du opp et skjema med felt du må fylle ut for å legge til den nye klienten. Når feltene er fylt ut klikker du Legg til i skjemaet, for å lukke skjemaet og legge til klienten. 
+Den nye klienten du har lagt til blir vist i listen i fanen Klienter. 
+Pass på å klikke Lagre-knappen for å lagre klienter  som du har lagt til  applikasjonen. 
 
 ![Skjema for å legge til ny klient for en applikasjon.](img\Falk2.5\FalkAdmin-Applikasjon_KlienterLeggTilNy.png)
 
-### __________________
 
+---
+Mer informasjon og veiledninger:
 
->[> Til forsiden i Falk brukerveiledning](README.md)
+>[ Til forsiden i Falk brukerveiledning](README.md)
 
->[> Til veiledning for innlogging](LoggInn.md)
+>[ Veiledning for innlogging](LoggInn.md)
+
+>[ Brukerveiledning for App Admin](Brukerdokumentasjon-applikasjonsadmin.md)
+
+>[ Brukerveiledning for Bruker](Brukerdokumentasjon-bruker.md)
+
+>[ Brukerveiledning for M2M-klienter](Brukerdokumentasjon-m2m.md)
+
+>[ Brukerveiledning for Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
+
+>[ Til toppen av denne siden](#brukerveiledning-for-falk-administrator)

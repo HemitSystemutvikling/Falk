@@ -1,5 +1,25 @@
 
-## Prosedyre for godkjennelse av søkere i portal for tilgangsforvaltning (Risiko 4.1)
+# <a name='Prosedyrer'></a>Prosedyrer
+
+INNHOLDSLISTE
+<!-- vscode-markdown-toc -->
+* [Prosedyre for godkjennelse av søkere i portal for tilgangsforvaltning (Risiko 4.1)](#ProsedyreforgodkjennelseavskereiportalfortilgangsforvaltningRisiko4.1)
+* [Funksjonalitet for godkjennelse av søkere i portal for tilgangsforvaltning (Risiko 4.2)](#FunksjonalitetforgodkjennelseavskereiportalfortilgangsforvaltningRisiko4.2)
+* [Prosedyrer for oppsett og endring av roller og rettigheter (Risiko 15)](#ProsedyrerforoppsettogendringavrollerogrettigheterRisiko15)
+* [Rutine for å rydde i brukerprofiler (Risiko 18)](#RutineforryddeibrukerprofilerRisiko18)
+* [Prosedyre for agerering på automatiske varsler om endringer (Risiko 20)](#ProsedyreforagereringpautomatiskevarsleromendringerRisiko20)
+* [Prosedyre for autorisasjon til Administrasjonsregisteret (Risiko 24 (og 25))](#ProsedyreforautorisasjontilAdministrasjonsregisteretRisiko24og25)
+* [Prosedyrer for å følge med endringer i HelseID (Risiko 28)](#ProsedyrerforflgemedendringeriHelseIDRisiko28)
+
+<!-- vscode-markdown-toc-config
+	numbering=false
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+---
+
+## <a name='ProsedyreforgodkjennelseavskereiportalfortilgangsforvaltningRisiko4.1'></a>Prosedyre for godkjennelse av søkere i portal for tilgangsforvaltning (Risiko 4.1)
 -	Risiko 4: «Det må utarbeides prosedyre(r) og utvikles funksjonalitet for godkjennelse av søkere i portal for tilgangsforvaltning med basis i: 
     - Hvem som kan autorisere for å gi tilgang (registeransvarlig)
         - `Dette inngår i NHN driftsdok, etableres i forbindelse med bestilling av register.`
@@ -20,10 +40,10 @@ NHN har ansvaret for å sørge for at de har fått informasjon om hvem som skal 
 **Referanser og vedlegg:**  Ingen
 
 ---
-## Funksjonalitet for godkjennelse av søkere i portal for tilgangsforvaltning (Risiko 4.2)
+## <a name='FunksjonalitetforgodkjennelseavskereiportalfortilgangsforvaltningRisiko4.2'></a>Funksjonalitet for godkjennelse av søkere i portal for tilgangsforvaltning (Risiko 4.2)
 -	Risiko 4: «Det må utarbeides prosedyre(r) og utvikles funksjonalitet for godkjennelse av søkere i portal for tilgangsforvaltning med basis i: 
     - Hyppighet i å bruke portalen og hvem som skal håndtere varsler som sendes fra varslingstjenesten»
-        - `Tilgangstilderler`
+        - `Tilgangstildeler`
 
 **Formål:** Formålet med denne prosedyren er å beskrive bruke portalen og hvem som skal håndtere varsler som sendes fra varslingstjenesten.
 
@@ -41,7 +61,7 @@ Per nå gjøres dette løpende per bestilling.
 **Referanser og vedlegg:**  Ingen
 
 ---
-## Prosedyrer for oppsett og endring av roller og rettigheter (Risiko 15)
+## <a name='ProsedyrerforoppsettogendringavrollerogrettigheterRisiko15'></a>Prosedyrer for oppsett og endring av roller og rettigheter (Risiko 15)
 -	Risiko 15: «Etabler prosedyrer for oppsett og endring av roller og rettigheter»
     - `Selve tildeling og oppfølging av endringer. Tilgangstildeles må sørge for å fjerne rettighet når noen slutter. Bruker søker eventuelle nye rettigheter.`
 
@@ -81,7 +101,7 @@ Hvis det skjer at en bruker er tildelt feil tilgang skal Tilgangstildeler fjerne
 **Referanser og vedlegg:** 
 
 --- -->
-## Rutine for å rydde i brukerprofiler (Risiko 18)
+## <a name='RutineforryddeibrukerprofilerRisiko18'></a>Rutine for å rydde i brukerprofiler (Risiko 18)
 -	Risiko 18: «Virksomheten må gjøres oppmerksom på at de skal etablere rutiner for å rydde i brukerprofiler» - («…organisasjonen må utarbeide og dokumentere prosedyrer og rutiner for forvaltning av tilgang til administrasjonsgrensesnittet») hvilken rutine benytter Falk? 
     - `Exitkontroll. Tilgangstildeler må fjerne roller hvis bruker ikke lenger skal ha tilgang. Må gjennomgås en gang i året.`
 
@@ -102,7 +122,7 @@ Alle tilganger må gå gjennom en gang i året for å sørge for at ingen ble gl
 **Referanser og vedlegg:** 
 
 ---
-## Prosedyre for agerering på automatiske varsler om endringer (Risiko 20)
+## <a name='ProsedyreforagereringpautomatiskevarsleromendringerRisiko20'></a>Prosedyre for agerering på automatiske varsler om endringer (Risiko 20)
 -	Risiko 20: «Det må utarbeides en prosedyre slik at registeransvarlig agerer på automatiske varsler om endringer»
     - `Prosedyre for å håndtere endringer iiht varsler – tilgangstildeler sitt ansvar.`
 
@@ -120,7 +140,7 @@ Tilgangstildeler har ansvaret for at søknadene som kommer inn for applikasjonen
 **Referanser og vedlegg:** Ingen
 
 ---
-## Prosedyre for autorisasjon til Administrasjonsregisteret (Risiko 24 (og 25))
+## <a name='ProsedyreforautorisasjontilAdministrasjonsregisteretRisiko24og25'></a>Prosedyre for autorisasjon til Administrasjonsregisteret (Risiko 24 (og 25))
 -	Risiko 24 (og 25): «Det må etableres prosedyre for autorisasjon til Administrasjonsregisteret» 
     - `Dette inngår i NHN driftsdok, etableres i forbindelse med bestilling av register.`
 
@@ -139,7 +159,7 @@ Hemit sender en bestilling for ny applikasjon til NHN og de følger sine rutiner
 **Referanser og vedlegg:** Ingen
 
 ---
-## Prosedyrer for å følge med endringer i HelseID (Risiko 28)
+## <a name='ProsedyrerforflgemedendringeriHelseIDRisiko28'></a>Prosedyrer for å følge med endringer i HelseID (Risiko 28)
 -	Risiko 28: «Det må etableres prosedyrer for å følge med endringer i HelseID»
     - `I ferd med å etablere rutine for mottak av changelog. Endringer må fanges opp av Hemit.`
 
@@ -156,9 +176,12 @@ Hemit mottar changelog fra NHN. Endringer må fanges opp av Hemit.
 
 **Referanser og vedlegg:** Ingen
 
-### __________________
+---
 
+Mer informasjon og veiledninger:
 
->[> Til forsiden i Falk brukerveiledning](README.md)
+>[ Til forsiden i Falk brukerveiledning](README.md)
 
->[> Til veiledning for innlogging](LoggInn.md)
+>[ Til veiledning for innlogging](LoggInn.md)
+
+>[ Til toppen av denne siden](#prosedyrer)
