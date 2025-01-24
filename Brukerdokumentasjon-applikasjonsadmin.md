@@ -1,17 +1,18 @@
 
-# <a name= 'Brukerveiledning for App Admin'></a>Brukerveiledning for App Admin
+# <a name= 'Falk brukerveiledning for App Admin'></a>Falk brukerveiledning for App Admin
 
 
 INNHOLDSLISTE
 <!-- vscode-markdown-toc -->
 * [Innlogging](#Innlogging)
+* [Applikasjonsadmininistrator i Falk](#ApplikasjonsadmininistratoriFalk)
 * [Applikasjoner](#Applikasjoner)
 	* [Tilgang](#Tilgang)
 		* [Laste ned brukerliste (CSV)](#LastenedbrukerlisteCSV)
 		* [Laste ned tilgangshistorikk](#Lastenedtilgangshistorikk)
 	* [Administrere brukere](#Administrerebrukere)
-	* [Utsett automatisk deaktivering](#Utsettautomatiskdeaktivering)
-	* [Reaktiver tilgang](#Reaktivertilgang)
+		* [Utsett automatisk deaktivering](#Utsettautomatiskdeaktivering)
+		* [Reaktiver tilgang](#Reaktivertilgang)
 * [Tilgangstildelere](#Tilgangstildelere)
 * [Importere Preautoriserte Søknader](#ImporterePreautoriserteSknader)
 
@@ -37,6 +38,7 @@ Du kan søke etter informasjon på denne siden med Ctrl+ F:
 
 [Klikk her for veiledning for innlogging.](LoggInn.md)
 
+## <a name='ApplikasjonsadmininistratoriFalk'></a>Applikasjonsadmininistrator i Falk
 Applikasjonsadministrator, App Admin, har samme rettigheter som en [Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
 I tillegg har Applikasjonsadministrator tilgang til å se og administrere tilgangstildelere for applikasjoner, og til å importere forhåndsautoriserte søknader om tilgang. Det vil si at når du er Applikasjonsadministator i Falk og åpner en applikasjon, ser du fanen Tilgangsdelere og Importer Preautoriserte Søknader, i tillegg til fanene Egenskaper, Søknader og Tilgang. 
 
