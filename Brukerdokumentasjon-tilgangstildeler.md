@@ -4,8 +4,12 @@
 
 INNHOLDSLISTE
 <!-- vscode-markdown-toc -->
+* [Innlogging](#Innlogging)
+* [Tilgangstildeler](#Tilgangstildeler)
 * [Søknader](#Sknader)
 * [Tilgang](#Tilgang)
+	* [Utsett automatisk deaktivering](#Utsettautomatiskdeaktivering)
+	* [Reaktiver tilgang](#Reaktivertilgang)
 * [Aktivitetslogg](#Aktivitetslogg)
 
 <!-- vscode-markdown-toc-config
@@ -27,10 +31,10 @@ Du kan søke etter informasjon på denne siden med Ctrl+ F:
 
 ---
 
-## Innlogging
+## <a name='Innlogging'></a>Innlogging
 [Klikk her for veiledning for innlogging.](LoggInn.md)
 
-## Tilgangstildeler
+## <a name='Tilgangstildeler'></a>Tilgangstildeler
 
 Som Tilgangstildeler som har logget inn i Falk, har du tilgang til en fane som heter Applikasjoner.  
 Når du velger fanen Applikasjoner finner du en liste som viser alle applikasjonene du har rollen Tilgangstildeler for. Hver applikasjon blir vist som en rad i oversikten, med kolonner som viser hver applikasjon sitt applikasjonsnavn, scopenavn og en kolonne som viser en hake hvis applikasjonen krever autorisasjon. 
@@ -88,15 +92,24 @@ Når du velger knappen Administrer for en bruker i oversikten, kommer du til sid
 
 ![Oversikt over tilgangene en bruker har og som du kan administrere.](img\Falk2.5\Tilgangstildeler-ApplikasjonTilgangAdministrer.png)
 
-Ut ifra de tilgangene du ser at brukeren har kan du gi brukeren tilgang til roller og avdelinger som personen trenger, og du kan fjerne en eller flere tilganger:
+Ut ifra de tilgangene du ser at brukeren har, kan du gi brukeren tilgang til roller og avdelinger som personen trenger, fjerne en eller flere tilganger, og reaktivere en eller flere tilganger som har vært deaktivert. 
+
 - For å gi tilgang, velg en rolle fra nedtrekklisten, og skriv inn og søk opp den avdelingen tilgangen gjelder. 
 - Når du har valgt både en rolle og søkt opp riktig avdelingen, kan du velge knappen Legg til. 
 - Når du velger Legg til blir den rollen og avdelingen du har valgt lagt til i listen som viser brukerens tilganger, sammen med en knapp for å fjerne tilgangen. 
 - Når du vil fjerne en rolle- og avdelingskombinasjon som brukeren har, kan du klikke Fjern tilgang for å ta vekk brukeren sin tilgang til den rollen og enheten. 
+- For å reaktivere en tilgang kan du klikke knappen Reaktiver som vises sammen med tilgangen.  
 
 For å gå tilbake og se oversikten over brukerne igjen, kan du velge Administrer brukertilganger øverst på siden. 
 
-## <a name='Aktivitetslogg'></a>Aktivitetslogg
+### <a name='Utsettautomatiskdeaktivering'></a>Utsett automatisk deaktivering
+Tilgangene en bruker har kan bli automatisk deaktivert når brukeren ikke har logget inn i løpet av en gitt periode. Hvor lang tid det går før den eller de rettighetene brukeren har blir deaktivert, er satt til seks -6- måneder. Du kan utsette automatisk deaktivering for en bruker. [Klikk her å gå til veiledningen for å utsette deaktivering i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Utsettautomatiskdeaktivering)
+
+### <a name='Reaktivertilgang'></a>Reaktiver tilgang
+For en bruker som har en eller flere tilganger som har blitt deaktivert, kan du gjøre tilgangen aktiv igjen:
+[Klikk her å gå til veiledningen for å reaktivere en tilgang som har blitt deaktivert i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Reaktivertilgang)
+
+## <a name='Aktivitetslogg'></a>Aktivitetslogg 
 Når du velger fanen som heter Aktivitetslogg for en applikasjon, får du en oversikt som viser aktiviteter som er gjort for applikasjonen. 
 
 ![Aktivitetslogg-oversikten som viser aktiviteter som rader i en liste.](img\Falk2.5\Tilgangstildeler-Aktivitetslogg.png)

@@ -4,10 +4,13 @@
 
 INNHOLDSLISTE
 <!-- vscode-markdown-toc -->
+* [Innlogging](#Innlogging)
+* [Falk Administrator](#FalkAdministrator)
 * [Varsler](#Varsler)
 * [Brukere](#Brukere)
 	* [Søk etter brukere](#Sketterbrukere)
-	* [Deaktivere og reaktivere brukere](#Deaktivereogreaktiverebrukere)
+	* [Utsett automatisk deaktivering](#Utsettautomatiskdeaktivering)
+	* [Reaktiver tilgang](#Reaktivertilgang)
 * [M2M-Klienter](#M2M-Klienter)
 * [API-ressurser](#API-ressurser)
 * [Registerkategorier](#Registerkategorier)
@@ -33,10 +36,10 @@ Du kan søke etter informasjon på denne siden med Ctrl+ F:
 
 ---
 
-## Innlogging
+## <a name='Innlogging'></a>Innlogging
 [Klikk her for veiledning for innlogging.](LoggInn.md)
 
-## Falk Administrator
+## <a name='FalkAdministrator'></a>Falk Administrator
 
 Som Falk Admininistrator har du samme rettigheter som en [Applikasjonsadministrator](Brukerdokumentasjon-applikasjonsadmin.md). I tillegg har Falk Administrator en fane i Falk som heter Administrere. Velg fanen Administrere for å se og velge hva du vil administrere: 
 - Varsler
@@ -80,10 +83,14 @@ Hvilke tilganger brukeren har og hvilke søknader brukeren har sendt blir vist i
 
 ![Skjema for å se og endre bruker i Falk.](img\Falk2.5\FalkAdmin-Bruker-admin.png)
 
-### <a name='Deaktivereogreaktiverebrukere'></a>Deaktivere og reaktivere brukere
-Falk Administrator har tilgang til å utsette deaktivering av tilganger og reaktivere tilganger som har blitt deaktivert for en bruker. Disse aktivitetene blir loggført som aktiviteter i Aktivitetsloggen for applikasjonen.  
+### <a name='Utsettautomatiskdeaktivering'></a>Utsett automatisk deaktivering 
+Det er mulig å utsette automatisk deaktivering av tilganger en bruker har, og å reaktivere tilganger som har blitt deaktivert for en bruker. Disse aktivitetene blir loggført som aktiviteter i Aktivitetsloggen for applikasjonen.  
 
-[Klikk her å gå til veiledningen for å deaktivere og reaktivere brukere i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Deaktivere-og-reaktivere-brukere)
+[Klikk her å gå til veiledningen for å utsette deaktivering i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Utsettautomatiskdeaktivering)
+
+### <a name='Reaktivertilgang'></a>Reaktiver tilgang
+For en bruker som har en eller flere tilganger som har blitt deaktivert, kan du gjøre tilgangen aktiv igjen:
+[Klikk her å gå til veiledningen for å reaktivere en tilgang som har blitt deaktivert i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Reaktivertilgang)
 
 
 ## <a name='M2M-Klienter'></a>M2M-Klienter

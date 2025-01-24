@@ -4,12 +4,14 @@
 
 INNHOLDSLISTE
 <!-- vscode-markdown-toc -->
+* [Innlogging](#Innlogging)
 * [Applikasjoner](#Applikasjoner)
 	* [Tilgang](#Tilgang)
 		* [Laste ned brukerliste (CSV)](#LastenedbrukerlisteCSV)
 		* [Laste ned tilgangshistorikk](#Lastenedtilgangshistorikk)
 	* [Administrere brukere](#Administrerebrukere)
-	* [Deaktivere og reaktivere brukere](#Deaktivereogreaktiverebrukere)
+	* [Utsett automatisk deaktivering](#Utsettautomatiskdeaktivering)
+	* [Reaktiver tilgang](#Reaktivertilgang)
 * [Tilgangstildelere](#Tilgangstildelere)
 * [Importere Preautoriserte Søknader](#ImporterePreautoriserteSknader)
 
@@ -31,7 +33,7 @@ Du kan søke etter informasjon på denne siden med Ctrl+ F:
 
 ---
 
-## Innlogging
+## <a name='Innlogging'></a>Innlogging
 
 [Klikk her for veiledning for innlogging.](LoggInn.md)
 
@@ -74,15 +76,15 @@ På siden er det også en liste som viser Brukerens tilganger. Her kan du gi bru
 
 ![Side som viser informasjon om brukeren, listen over brukerens tilganger med felt for å legge til ny tilgang, og eksisterende tilganger med knapp for å fjerne hver tilgang.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerDeaktiver.png)
 
-### <a name='Deaktivereogreaktiverebrukere'></a>Deaktivere og reaktivere brukere
-En bruker som ikke har logget inn i løpet av en gitt periode kan bli automatisk deaktivert. Hvor lang tid det går før den eller de rettighetene brukeren har blir deaktiverte er satt til seks -6- måneder. 
+#### <a name='Utsettautomatiskdeaktivering'></a>Utsett automatisk deaktivering 
+Tilganger som en brukeren har kan bli automatisk deaktivert hvis brukeren ikke har logget inn i løpet av en gitt periode. Hvor lang tid det går før den eller de rettighetene brukeren har hatt blir deaktivert, er satt til seks -6- måneder. 
 
 ![Side som viser informasjon om brukeren og knappen Utsett automatisk deaktivering.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerDeaktiver.png)l
 
-Som Applikasjonsadministrator kan du utsette deaktiveringen av rettigheter en bruker er i ferd med å få deaktivert: 
+Du kan utsette deaktiveringen av rettigheter en bruker er i ferd med å få deaktivert: 
 - I fanen Tilgang for applikasjonen, velg Admininstrer for brukeren for å komme til siden som viser informasjon om brukeren sammen med funksjonen Utsett automatisk deaktivering. 
 - For å hindre at brukerens rettigheter blir deaktivert, velg Utsett automatisk deaktivering. 
-- I listen som viser Brukerens tilganger blir for hver rolle og avdeling som brukeren har rettighet til oppdatert med tidspunkt for neste deaktivering, for eksempel 365 dager fra tidspunktet du velger Utsett automatisk deaktivering. 
+- I listen som viser Brukerens tilganger blir hver rolle og avdeling som brukeren har rettighet til oppdatert med tidspunkt for neste deaktivering, for eksempel 365 dager fra det tidspunktet som du har valgt Utsett automatisk deaktivering. 
 
 ![Side som viser informasjon om brukeren med tidspunktet for utsatt deaktivering for hver rettighet brukeren har.](img/Falk2.5/AppAdmin-TilgangAdministrerBrukerUtsattDeaktivering.png)
 
@@ -90,8 +92,9 @@ Du kan gå til fanen Aktivitetslogg for applikasjonen og finne aktiviteten i akt
 
 ![Aktivitetslogg som viser aktiviteten Utsatt automatisk deaktivering av rettigheter.](img/Falk2.5/AppAdmin-AktivitetsloggUtsattAutomatiskDeaktiveringAvBruker.png)
 
-På siden som viser informasjon om brukeren kan du få opp informasjon om at en bruker har tilganger som er deaktivert. Som applikasjonsadministrator har du mulighet til å reaktivere: 
-- I listen som viser brukerens tilganger er knappen Reaktiver tilgjengelig for rollen og avdelingen.
+#### <a name='Reaktivertilgang'></a>Reaktiver tilgang
+En eller flere tilganger som en bruker har hatt, men som har blitt deaktivert, er det mulig å reaktivere:
+- I listen som viser brukerens tilganger vises knappen Reaktiver for rollen og avdelingen (tilgangen) som har blitt deaktivert. 
 - Klikk Reaktiver. 
 Etter at du har reaktivert tilgangen for brukeren blir tilgangen oppdatert og aktiv igjen. 
 
