@@ -19,6 +19,16 @@ INNHOLDSLISTE
 
 ---
 
+SØK PÅ DENNE SIDEN
+
+Du kan søke etter informasjon på denne siden med Ctrl+ F: 
+- Trykk Ctrl+F for å få opp søkefeltet.
+- I søkefeltet skriver du det vil søke etter.
+- Søketreff blir uthevet med en annen bagrunnsfarge.  
+
+
+---
+
 ## <a name='ProsedyreforgodkjennelseavskereiportalfortilgangsforvaltningRisiko4.1'></a>Prosedyre for godkjennelse av søkere i portal for tilgangsforvaltning (Risiko 4.1)
 -	Risiko 4: «Det må utarbeides prosedyre(r) og utvikles funksjonalitet for godkjennelse av søkere i portal for tilgangsforvaltning med basis i: 
     - Hvem som kan autorisere for å gi tilgang (registeransvarlig)
