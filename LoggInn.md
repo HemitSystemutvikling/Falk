@@ -1,5 +1,5 @@
 
-# <a name= 'Veiledning for å logge inn i Falk'></a> Veiledning for å logge inn i Falk
+# <a name= 'Veiledning-for-a-logge-inn-i-Falk'></a> Veiledning for å logge inn i Falk
 
 Hvis du ikke allerede er logget inn i Falk vil du få opp en innloggingsside.
 
@@ -43,4 +43,4 @@ Mer informasjon og veiledere:
 
 >[ Brukerveledning for Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
 
->[ Til toppen av denne siden](#veiledning-for-å-logge-inn-i-falk)
+>[ Til toppen av denne siden](#Veiledning-for-a-logge-inn-i-Falk)

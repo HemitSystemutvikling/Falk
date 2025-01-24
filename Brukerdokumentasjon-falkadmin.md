@@ -1,5 +1,5 @@
 
-# <a name='Falk brukerveiledning for Falk Administrator'></a>Falk brukerveiledning for Falk Administrator
+# <a name='Falk-brukerveiledning-for-Falk-Administrator'></a>Falk brukerveiledning for Falk Administrator
 
 
 INNHOLDSLISTE
@@ -176,4 +176,4 @@ Mer informasjon og veiledninger:
 
 >[ Brukerveiledning for Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
 
->[ Til toppen av denne siden](#brukerveiledning-for-falk-administrator)
+>[ Til toppen av denne siden](#Falk-brukerveiledning-for-Falk-Administrator)

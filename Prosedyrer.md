@@ -1,5 +1,5 @@
 
-# <a name='Falk prosedyrer'></a>Falk prosedyrer
+# <a name='Falk-prosedyrer'></a>Falk prosedyrer
 
 INNHOLDSLISTE
 <!-- vscode-markdown-toc -->
@@ -194,4 +194,4 @@ Mer informasjon og veiledninger:
 
 >[ Til veiledning for innlogging](LoggInn.md)
 
->[ Til toppen av denne siden](#prosedyrer)
+>[ Til toppen av denne siden](#Falk-prosedyrer)
