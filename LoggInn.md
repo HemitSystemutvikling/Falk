@@ -33,4 +33,14 @@ Mer informasjon og veiledere:
 
 >[ Til forsiden i Falk brukerveiledning](README.md)
 
+>[ Brukerveledning for App Admin](Brukerdokumentasjon-applikasjonsadmin.md)
+
+>[ Brukerveledning for Bruker](Brukerdokumentasjon-bruker.md)
+
+>[ Brukerveledning for Falk Administrator](Brukerdokumentasjon-falkadmin.md)
+
+>[ Brukerveledning - M2M-klienter](Brukerdokumentasjon-m2m.md)
+
+>[ Brukerveledning for Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
+
 >[ Til toppen av denne siden](#veiledning-for-å-logge-inn-i-falk)
