@@ -3,7 +3,6 @@
 
 # <a name='Falk_brukerveiledning---M2M-klienter'></a>Brukerveiledning - M2M-klienter
 
-
 INNHOLDSLISTE
 <!-- vscode-markdown-toc -->
 * [M2M-klienter](#M2M-klienter)
@@ -134,4 +133,4 @@ Mer informasjon og veiledninger:
 
 >[ Brukerveledning for Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
 
->[ Til toppen av denne siden](#Falk-brukerveiledning---m2m-klienter)
+>[ Til toppen av denne siden](#Brukerveiledning---m2m-klienter)
