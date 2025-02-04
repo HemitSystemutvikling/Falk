@@ -1,7 +1,7 @@
 
 # FALK Brukerdokumentasjon
 
-# <a name= 'Falk-brukerveiledning-for-tilgangstildeler'></a>Falk brukerveiledning for tilgangstildeler
+# <a name= 'Brukerveiledning-for-tilgangstildeler'></a>Brukerveiledning for tilgangstildeler
 
 
 INNHOLDSLISTE
@@ -139,4 +139,4 @@ Mer informasjon og veiledninger:
 
 >[ Brukerveiledning for M2M-klienter](Brukerdokumentasjon-m2m.md)
 
->[ Til toppen av denne siden](#Falk-brukerveiledning-for-tilgangstildeler)
+>[ Til toppen av denne siden](#Brukerveiledning-for-tilgangstildeler)

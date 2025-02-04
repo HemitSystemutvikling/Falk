@@ -1,7 +1,7 @@
 
 # FALK Brukerdokumentasjon
 
-# <a name= 'Falk-brukerveiledning-for-App-Admin'></a>Brukerveiledning for App Admin
+# <a name= 'Brukerveiledning-for-App-Admin'></a>Brukerveiledning for App Admin
 
 
 INNHOLDSLISTE
@@ -180,4 +180,4 @@ Når du har lagt inn et json-objekt i tekstboksen og velger Lagre, vil du se en 
 
 >[ Brukerveiledning for Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
 
->[ Til toppen av denne siden](#Falk-brukerveiledning-for-app-admin)
+>[ Til toppen av denne siden](#Brukerveiledning-for-App-Admin)
