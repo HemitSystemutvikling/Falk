@@ -1,7 +1,7 @@
 
 # FALK Brukerdokumentasjon
 
-# <a name='Brukerveiledning---m2m-klienter'></a>Brukerveiledning - M2M-klienter
+# <a name= 'Brukerveiledning-for-m2m-klienter'></a>Brukerveiledning for M2M-klienter
 
 INNHOLDSLISTE
 <!-- vscode-markdown-toc -->
@@ -133,4 +133,4 @@ Mer informasjon og veiledninger:
 
 >[ Brukerveledning for Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
 
->[ Til toppen av denne siden](#brukerveiledning---m2m-klienter)
+>[ Til toppen av denne siden](#Brukerveiledning-for-m2m-klienter)
