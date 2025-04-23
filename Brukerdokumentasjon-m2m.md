@@ -20,7 +20,7 @@ INNHOLDSLISTE
 
 SØK PÅ DENNE SIDEN
 
-Du kan søke etter informasjon på denne siden med Ctrl+ F: 
+Du kan søke etter informasjon på denne siden med Ctrl+F: 
 - Trykk Ctrl+F for å få opp søkefeltet.
 - I søkefeltet skriver du det vil søke etter.
 - Søketreff blir uthevet med en annen bagrunnsfarge.  

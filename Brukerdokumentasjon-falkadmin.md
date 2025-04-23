@@ -16,6 +16,7 @@ INNHOLDSLISTE
 * [M2M-Klienter](#M2M-Klienter)
 * [API-ressurser](#API-ressurser)
 * [Registerkategorier](#Registerkategorier)
+* [Applikasjonstyper](#Applikasjonstyper)
 * [Applikasjoner](#Applikasjoner)
 	* [Legg til ny applikasjon](#Leggtilnyapplikasjon)
 	* [Egenskaper](#Egenskaper)
@@ -113,6 +114,35 @@ Når du velger Registerkategorier finner du en liste som viser kategorier hver a
 Som Falk Administrator har du mulighet til å legge til nye registerkategorier og endre på eller slette eksisterende registerkategorier.
 
 ![Skjema for å legge til registerkategori.](img\Falk2.5\FalkAdmin-RegisterkategorierLeggTil.png)
+
+
+## <a name='Applikasjonstyper'></a>Applikasjonstyper
+Når du velger Applikasjonstyper i Administrere-menyen, finner du en liste som viser de applikasjonstypene en applikasjon i Falk kan settes opp med.
+Listen viser hver applikasjonstype med ett eller flere claims som er lagt til hver applikasjonstype. 
+
+![Applikasjonstyper-listen.](img\Falk2.5\FalkAdmin-Applikasjonstyper.png)
+
+Som Falk Administrator har du mulighet til å legge til nye applikasjonstyper og endre på hver applikasjonstype som vises i listen.
+
+Når du velger Legg til ny applikasjonstype blir skjemaet for å registrere den nye applikasjonstypen åpnet. Skjemaet har felt for å gi applikasjonstypen et navn og en nedtrekkliste for å velge blant tilgjengelige claim-typer som skal legges til denne applikasjonstypen. 
+
+![Skjema for å legge til ny applikasjonstype.](img\Falk2.5\FalkAdmin-Applikasjonstyper_LeggTilNy.png)
+
+Når du har valgt riktig claim-type bruker du avkryssingsboksene for å definere hva claim-typen skal angi: 
+- EnhetsId, OrgUnitid, ReshId, 
+- roller, og 
+- bestemme om det skal være lov å sette spesifikke claim-verdier. 
+
+Etter at claim-type er valgt og du har definert hva den skal angi kan du legge til claimtypen ved på velge knappen Legg til i tilgjengelige claim-typer. 
+
+![Applikasjonstype med en claim-type lagt til.](img\Falk2.5\FalkAdmin-Applikasjonstyper_LeggTilNy_Claim-type.png)
+
+Claim-typen blir vist i oversikten som visr claimtyper nederst i skjemaet.
+
+Når en eller flere claim-typer er lagt til for applikasjonstypen blir de vist i oversikten. Det er mulig å slette en claim-type med Slett-knappen i oversikten, helt frem til du lagrer applikasjonstypen. 
+
+
+
 
 
 ## <a name='Applikasjoner'></a>Applikasjoner 
