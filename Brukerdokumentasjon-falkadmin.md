@@ -133,15 +133,16 @@ Når du har valgt riktig claim-type bruker du avkryssingsboksene for å definere
 - roller, og 
 - bestemme om det skal være lov å sette spesifikke claim-verdier. 
 
-Etter at claim-type er valgt og du har definert hva den skal angi kan du legge til claimtypen ved på velge knappen Legg til i tilgjengelige claim-typer. 
+Etter at claim-type er valgt og du har definert hva den skal angi, kan du legge til claim-typen ved å velge knappen Legg til i tilgjengelige claim-typer. 
+Claim-typen du har lagt til blir vist i oversikten over claim-typer nederst i skjemaet. 
 
 ![Applikasjonstype med en claim-type lagt til.](img\Falk2.5\FalkAdmin-Applikasjonstyper_LeggTilNy_Claim-type.png)
 
-Claim-typen blir vist i oversikten som visr claimtyper nederst i skjemaet.
 
-Når en eller flere claim-typer er lagt til for applikasjonstypen blir de vist i oversikten. Det er mulig å slette en claim-type med Slett-knappen i oversikten, helt frem til du lagrer applikasjonstypen. 
+Når en eller flere claim-typer er lagt til for applikasjonstypen er de vist i oversikten med informasjon claim-typen tillater å angi roller, enhetsId og spesifikke verdier. 
+Merk at det er mulig å slette en claim-type med Slett-knappen helt frem til du lagrer applikasjonstypen. 
 
-
+![Claim-typer med tilgjengelig slette-knapp før applikasjonstypen er lagret.](img\Falk2.5\FalkAdmin-Applikasjonstyper_LeggTilNy_Claim-type2.png)
 
 
 
