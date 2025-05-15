@@ -97,22 +97,17 @@ Du kan gå til fanen Aktivitetslogg for applikasjonen og finne aktiviteten i akt
 ![Aktivitetslogg som viser aktiviteten Utsatt automatisk deaktivering av rettigheter.](img/Falk2.5/AppAdmin-AktivitetsloggUtsattAutomatiskDeaktiveringAvBruker.png)
 
 #### <a name='Reaktivertilgang'></a>Reaktiver tilgang
-For en bruker som har en eller flere tilganger som har blitt deaktivert, blir det vist melding om dette på siden som viser brukerens tilganger. En knapp for å reaktivere blir vist for hver tilgang som har blitt deaktivert. 
+For en bruker som har en eller flere tilganger som har blitt deaktivert, blir det vist melding om dette på siden som viser brukerens tilganger. For hver tilgang som har blitt deaktivert blir knappen Reaktivere vist gjøre tilgangen aktiv for bruker igjen. 
+
+![Side som viser informasjon om brukeren med informasjon om at deaktiverte tilganger kan reaktiveres.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktiver1.png) 
 
 I tillegg til at en deaktivert tilgang blir vist med knappen Reaktiver, blir det sendt varsel om at tilgangen er deaktivert på epost til brukeren og til Tilgangstildeler for applikasjonen, med lenke til brukeren sine tilganger i Falk. 
 
-![Side som viser informasjon om brukeren med informasjon om at deaktiverte tilganger kan reaktiveres.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerInfoReaktiver.png) 
+[Klikk her for å gå til veiledningen for å reaktivere en tilgang, i Brukerdokumentasjon for tilgangstildeler.](Brukerdokumentasjon-tilgangstildeler.md#Reaktivertilgang)
 
-En tilgang som har blitt deaktivert, er det mulig å reaktivere:
-- I listen som viser brukerens tilganger, finn knappen Reaktiver for den rollen og avdelingen (tilgangen) som du vil reaktivere. 
-- Klikk Reaktiver. 
 Etter at tilgangen har blitt reaktivert for brukeren, blir tilgangen oppdatert og aktiv igjen. 
 
-![Side som brukers tilgang som er reaktivert.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktivert.png)
-
-[Klikk her for å gå til veiledningen for bruker som ønsker at tilgang blir reaktivert, i Brukerdokumentasjon for bruker.](Brukerdokumentasjon-bruker.md#Reaktivereendeaktiverttilgang)
-[Klikk her for å gå til veiledningen for tilgangstildeler som kan reaktivere en tilgang, i Brukerdokumentasjon for tilgangstildeler.](Brukerdokumentasjon-tilgangstildeler.md#Reaktivertilgang)
-
+[Klikk her for å gå til veiledningen for bruker som ønsker å få reaktivert en tilgang, i Brukerdokumentasjon for bruker.](Brukerdokumentasjon-bruker.md#Reaktivereendeaktiverttilgang)
 
 ## <a name='Tilgangstildelere'></a>Tilgangstildelere
 I fanen Tilgangstildelere har du en oversikt som viser personer som har rollen som tilgangstildeler for applikasjonen, med personens kontaktinformasjon.
