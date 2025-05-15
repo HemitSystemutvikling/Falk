@@ -105,14 +105,21 @@ Ut ifra de tilgangene du ser at brukeren har, kan du gi brukeren tilgang til rol
 For å gå tilbake og se oversikten over brukerne igjen, kan du velge Administrer brukertilganger øverst på siden. 
 
 ### <a name='Utsettautomatiskdeaktivering'></a>Utsett automatisk deaktivering
-Tilgangene en bruker har kan bli automatisk deaktivert når brukeren ikke har logget inn i løpet av en gitt periode. Hvor lang tid det går før den eller de rettighetene brukeren har blir deaktivert, er satt til seks -6- måneder. Du kan utsette automatisk deaktivering for en bruker.
+Rettigheter en bruker har til en applikasjon kan bli automatisk deaktivert når brukeren ikke har logget inn i løpet av en gitt periode. Hvor lang tid det går før den eller de rettighetene brukeren har blir deaktivert, er satt til seks -6- måneder. 
+
+Du kan utsette automatisk deaktivering for en bruker.
 [Klikk her for å gå til veiledningen for å utsette deaktivering i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Utsettautomatiskdeaktivering)
 
 
 ### <a name='Reaktiverdeaktiverttilgang'></a>Reaktiver deaktivert tilgang
-For en bruker som har en eller flere tilganger som har blitt deaktivert, blir det sendt et varsel på epost til brukeren og til Tilgangstildeler om dette. Varselet til Tilgangstildeler har lenke til brukeren sine tilganger i Falk. Tilgangstildeler kan gjøre en deaktivert tilgang aktiv igjen ved å reaktivere denne tilgangen for brukeren. Brukeren trenger ikke søke om tilgangen på nytt. 
+For en bruker som har en eller flere rettigheter til en applikasjon som har blitt deaktivert, blir det sendt et varsel på epost til brukeren og til Tilgangstildeler om dette. Varselet til Tilgangstildeler har lenke til brukeren sine tilganger i Falk. 
 
-[Oversikten Brukerens tilganger som viser informasjon om deaktivert tilgang og knappen Reaktiver for tilgangen](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktiver1.png)
+Tilgangstildeler kan gjøre deaktiverte rettigheter aktive igjen ved å reaktivere hver rettighet til applikasjonen slik at tilgangen blir aktivert for brukeren igjen. Brukeren trenger ikke søke om tilgangen på nytt, men kan be om å få reaktivert rettigheten.  
+
+[Klikk her for å gå til veiledningen for bruker som ønsker at tilgang blir reaktivert, i Brukerdokumentasjon for bruker.](Brukerdokumentasjon-bruker.md#Reaktivereendeaktiverttilgang)
+
+
+![Oversikten Brukerens tilganger som viser informasjon om deaktivert tilgang og knappen Reaktiver for tilgangen](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktiver1.png)
 
 For å reaktivere en deaktivert tilgang: 
 - Velg applikasjonen i applikasjonsoversikten og gå til fanen Tilgang. 
@@ -122,10 +129,7 @@ For å reaktivere en deaktivert tilgang:
 
 Etter at tilgangen har blitt reaktiver blir tilgangen oppdatert og aktiv igjen. 
 
-[Klikk her for å gå til veiledningen for bruker som ønsker at tilgang blir reaktivert, i Brukerdokumentasjon for bruker.](Brukerdokumentasjon-bruker.md#Reaktivereendeaktiverttilgang)
-
-Tips: Hvis en bruker har sendt ny søknad om den tilgangen som er deaktivert, i tillegg til å be om reaktivering av denne tilgangen, kan Tilgangstildeler velge å slette søknaden eller avvise søknaden med kommentar. Å reaktivere en tilgang påvirker ikke søknadsbehandlingen. Søknader blir liggende til de er behandlet, uavhengig av reaktivering. 
-
+	Tips: Hvis en bruker har sendt ny søknad om tilgang for den tilgangen som har blitt deaktivert, i tillegg til å be om reaktivering av tilgangen, kan Tilgangstildeler velge å slette søknaden eller avvise søknaden med kommentar. Å reaktivere en tilgang påvirker ikke søknadsbehandlingen. Søknader blir liggende til de er behandlet, uavhengig av reaktivering. 
 
 ## <a name='Aktivitetslogg'></a>Aktivitetslogg 
 Når du velger fanen som heter Aktivitetslogg for en applikasjon, får du en oversikt som viser aktiviteter som er gjort for applikasjonen. 

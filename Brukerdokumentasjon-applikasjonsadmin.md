@@ -85,27 +85,27 @@ Tilganger som en bruker har kan bli automatisk deaktivert hvis brukeren ikke har
 
 ![Side som viser informasjon om brukeren og knappen Utsett automatisk deaktivering.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerDeaktiver.png)
 
-Du kan utsette deaktiveringen av rettigheter en bruker er i ferd med å få deaktivert: 
+Du kan utsette deaktiveringen av rettigheter som er i ferd med å bli deaktivert: 
 - I fanen Tilgang for applikasjonen, velg Admininstrer bruker for å komme til siden som viser informasjon om brukeren sammen med funksjonen Utsett automatisk deaktivering. 
 - For å hindre at brukerens rettigheter blir deaktivert, velg Utsett automatisk deaktivering. 
 - I listen som viser Brukerens tilganger blir hver rolle og avdeling som brukeren har rettighet til oppdatert med tidspunkt for neste deaktivering, for eksempel 365 dager fra det tidspunktet som du har valgt Utsett automatisk deaktivering. 
 
 ![Side som viser informasjon om brukeren med tidspunktet for utsatt deaktivering for hver rettighet brukeren har.](img/Falk2.5/AppAdmin-TilgangAdministrerBrukerUtsattDeaktivering.png)
 
-Du kan gå til fanen Aktivitetslogg for applikasjonen og finne aktiviteten i aktivitetsloggen som viser at du har utsatt deaktivering av rettigheter som brukeren har til applikasjonen. Ved å klikke på aktiviteten blir den utvidet og viser mer informasjon. 
+Du kan gå til fanen Aktivitetslogg for applikasjonen og finne den aktiviteten i aktivitetsloggen som viser at du har utsatt deaktivering av en rettighet brukeren har til applikasjonen. Ved å klikke på aktiviteten blir den utvidet og kan vise mer informasjon. 
 
 ![Aktivitetslogg som viser aktiviteten Utsatt automatisk deaktivering av rettigheter.](img/Falk2.5/AppAdmin-AktivitetsloggUtsattAutomatiskDeaktiveringAvBruker.png)
 
 #### <a name='Reaktivertilgang'></a>Reaktiver tilgang
-For en bruker som har en eller flere tilganger som har blitt deaktivert, blir det vist melding om dette på siden som viser brukerens tilganger. For hver tilgang som har blitt deaktivert blir knappen Reaktivere vist gjøre tilgangen aktiv for bruker igjen. 
+For en bruker som har en eller flere rettigheter til en applikasjon som har blitt deaktivert, blir det vist melding om dette på siden som viser brukerens tilganger. For hver rettighet som har blitt deaktivert blir knappen Reaktivere vist. Du kan velge Reaktivere for å gjøre rettigheten aktiv igjen for brukeren. 
 
-![Side som viser informasjon om brukeren med informasjon om at deaktiverte tilganger kan reaktiveres.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktiver1.png) 
+![Side som viser informasjon om brukeren med informasjon om deaktiverte tilganger som du kan reaktivere.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktiver1.png) 
 
-I tillegg til at en deaktivert tilgang blir vist med knappen Reaktiver, blir det sendt varsel om at tilgangen er deaktivert på epost til brukeren og til Tilgangstildeler for applikasjonen, med lenke til brukeren sine tilganger i Falk. 
+I tillegg til at en deaktivert rettighet til en applikasjon (tilgang) blir vist med knappen Reaktiver, blir det sendt varsel om at tilgangen er deaktivert på epost til brukeren og til Tilgangstildeler for applikasjonen, med lenke til brukeren sine tilganger i Falk. 
 
 [Klikk her for å gå til veiledningen for å reaktivere en tilgang, i Brukerdokumentasjon for tilgangstildeler.](Brukerdokumentasjon-tilgangstildeler.md#Reaktivertilgang)
 
-Etter at tilgangen har blitt reaktivert for brukeren, blir tilgangen oppdatert og aktiv igjen. 
+Etter at en tilgang har blitt reaktivert for brukeren, blir tilgangen oppdatert og aktiv igjen. 
 
 [Klikk her for å gå til veiledningen for bruker som ønsker å få reaktivert en tilgang, i Brukerdokumentasjon for bruker.](Brukerdokumentasjon-bruker.md#Reaktivereendeaktiverttilgang)
 
