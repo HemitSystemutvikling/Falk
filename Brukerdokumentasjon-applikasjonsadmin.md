@@ -81,12 +81,12 @@ På siden er det også en liste som viser Brukerens tilganger. Her kan du gi bru
 ![Side som viser informasjon om brukeren, listen over brukerens tilganger med felt for å legge til ny tilgang, og eksisterende tilganger med knapp for å fjerne hver tilgang.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerDeaktiver.png)
 
 #### <a name='Utsettautomatiskdeaktivering'></a>Utsett automatisk deaktivering 
-Tilganger som en brukeren har kan bli automatisk deaktivert hvis brukeren ikke har logget inn i løpet av en gitt periode. Hvor lang tid det går før den eller de rettighetene brukeren har hatt blir deaktivert, er satt til seks -6- måneder. 
+Tilganger som en bruker har kan bli automatisk deaktivert hvis brukeren ikke har logget inn i løpet av en gitt periode. Hvor lang tid det går før den eller de rettighetene brukeren har hatt blir deaktivert, er satt til seks -6- måneder. 
 
-![Side som viser informasjon om brukeren og knappen Utsett automatisk deaktivering.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerDeaktiver.png)l
+![Side som viser informasjon om brukeren og knappen Utsett automatisk deaktivering.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerDeaktiver.png)
 
 Du kan utsette deaktiveringen av rettigheter en bruker er i ferd med å få deaktivert: 
-- I fanen Tilgang for applikasjonen, velg Admininstrer for brukeren for å komme til siden som viser informasjon om brukeren sammen med funksjonen Utsett automatisk deaktivering. 
+- I fanen Tilgang for applikasjonen, velg Admininstrer bruker for å komme til siden som viser informasjon om brukeren sammen med funksjonen Utsett automatisk deaktivering. 
 - For å hindre at brukerens rettigheter blir deaktivert, velg Utsett automatisk deaktivering. 
 - I listen som viser Brukerens tilganger blir hver rolle og avdeling som brukeren har rettighet til oppdatert med tidspunkt for neste deaktivering, for eksempel 365 dager fra det tidspunktet som du har valgt Utsett automatisk deaktivering. 
 
@@ -97,12 +97,21 @@ Du kan gå til fanen Aktivitetslogg for applikasjonen og finne aktiviteten i akt
 ![Aktivitetslogg som viser aktiviteten Utsatt automatisk deaktivering av rettigheter.](img/Falk2.5/AppAdmin-AktivitetsloggUtsattAutomatiskDeaktiveringAvBruker.png)
 
 #### <a name='Reaktivertilgang'></a>Reaktiver tilgang
-En eller flere tilganger som en bruker har hatt, men som har blitt deaktivert, er det mulig å reaktivere:
-- I listen som viser brukerens tilganger vises knappen Reaktiver for rollen og avdelingen (tilgangen) som har blitt deaktivert. 
-- Klikk Reaktiver. 
-Etter at du har reaktivert tilgangen for brukeren blir tilgangen oppdatert og aktiv igjen. 
+For en bruker som har en eller flere tilganger som har blitt deaktivert, blir det vist melding om dette på siden som viser brukerens tilganger. En knapp for å reaktivere blir vist for hver tilgang som har blitt deaktivert. 
 
-![Side som viser informasjon om brukeren med informasjon om at deaktiverte tilganger kan reaktiveres.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerInfoReaktiver.png)
+I tillegg til at en deaktivert tilgang blir vist med knappen Reaktiver, blir det sendt varsel om at tilgangen er deaktivert på epost til brukeren og til Tilgangstildeler for applikasjonen, med lenke til brukeren sine tilganger i Falk. 
+
+![Side som viser informasjon om brukeren med informasjon om at deaktiverte tilganger kan reaktiveres.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerInfoReaktiver.png) 
+
+En tilgang som har blitt deaktivert, er det mulig å reaktivere:
+- I listen som viser brukerens tilganger, finn knappen Reaktiver for den rollen og avdelingen (tilgangen) som du vil reaktivere. 
+- Klikk Reaktiver. 
+Etter at tilgangen har blitt reaktivert for brukeren, blir tilgangen oppdatert og aktiv igjen. 
+
+![Side som brukers tilgang som er reaktivert.](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktivert.png)
+
+[Klikk her for å gå til veiledningen for bruker som ønsker at tilgang blir reaktivert, i Brukerdokumentasjon for bruker.](Brukerdokumentasjon-bruker.md#Reaktivereendeaktiverttilgang)
+[Klikk her for å gå til veiledningen for tilgangstildeler som kan reaktivere en tilgang, i Brukerdokumentasjon for tilgangstildeler.](Brukerdokumentasjon-tilgangstildeler.md#Reaktivertilgang)
 
 
 ## <a name='Tilgangstildelere'></a>Tilgangstildelere

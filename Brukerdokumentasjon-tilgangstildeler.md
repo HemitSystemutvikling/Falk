@@ -8,10 +8,10 @@ INNHOLDSLISTE
 <!-- vscode-markdown-toc -->
 * [Innlogging](#Innlogging)
 * [Tilgangstildeler](#Tilgangstildeler)
-* [Søknader](#Sknader)
+* [Søknader](#Søknader)
 * [Tilgang](#Tilgang)
 	* [Utsett automatisk deaktivering](#Utsettautomatiskdeaktivering)
-	* [Reaktiver tilgang](#Reaktivertilgang)
+	* [Reaktiver deaktivert tilgang](#Reaktiverdeaktiverttilgang)
 * [Aktivitetslogg](#Aktivitetslogg)
 
 <!-- vscode-markdown-toc-config
@@ -107,9 +107,23 @@ For å gå tilbake og se oversikten over brukerne igjen, kan du velge Administre
 ### <a name='Utsettautomatiskdeaktivering'></a>Utsett automatisk deaktivering
 Tilgangene en bruker har kan bli automatisk deaktivert når brukeren ikke har logget inn i løpet av en gitt periode. Hvor lang tid det går før den eller de rettighetene brukeren har blir deaktivert, er satt til seks -6- måneder. Du kan utsette automatisk deaktivering for en bruker. [Klikk her å gå til veiledningen for å utsette deaktivering i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Utsettautomatiskdeaktivering)
 
-### <a name='Reaktivertilgang'></a>Reaktiver tilgang
-For en bruker som har en eller flere tilganger som har blitt deaktivert, kan du gjøre tilgangen aktiv igjen:
-[Klikk her å gå til veiledningen for å reaktivere en tilgang som har blitt deaktivert i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Reaktivertilgang)
+
+### <a name='Reaktiverdeaktiverttilgang'></a>Reaktiver deaktivert tilgang
+For en bruker som har en eller flere tilganger som har blitt deaktivert, blir det sendt et varsel på epost til brukeren og til Tilgangstildeler om dette. Varselet til Tilgangstildeler har lenke til brukeren sine tilganger i Falk. Tilgangstildeler kan gjøre en deaktivert tilgang aktiv igjen ved å reaktivere denne tilgangen for brukeren. Brukeren trenger ikke søke om tilgangen på nytt. 
+[Klikk her å gå til veiledningen for bruker som ønsker at tilgang blir reaktivert, i Brukerdokumentasjon for bruker.](Brukerdokumentasjon-bruker.md#Reaktivereendeaktiverttilgang)
+
+For å reaktivere en deaktivert tilgang: 
+- Velg applikasjonen i applikasjonsoversikten og gå til fanen Tilgang. 
+- Finn brukeren i oversikten som viser brukere og velg Administrer bruker.
+- På siden Administrer brukertilganger er det informasjon om deaktiverte tilganger, og for hver tilgang som har blitt deaktivert er knappen Reaktiver tilgjengelig. 
+- Trykk Reaktiver-knappen for den tilgangen som skal gjøres aktiv igjen. 
+
+Etter at tilgangen har blitt reaktivert for brukeren, blir tilgangen oppdatert og aktiv igjen. 
+
+[Oversikten Brukerens tilganger som viser informasjon om deaktivert tilgang som kan reaktiveres](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktiver1.png)
+
+Tips: Hvis en bruker har sendt ny søknad om den tilgangen som er deaktivert, i tillegg til å be om reaktivering av denne tilgangen, kan Tilgangstildeler velge å slette søknaden eller avvise søknaden med kommentar. Å reaktivere en tilgang påvirker ikke søknadsbehandlingen. Søknader blir liggende til de er behandlet, uavhengig av reaktivering. 
+
 
 ## <a name='Aktivitetslogg'></a>Aktivitetslogg 
 Når du velger fanen som heter Aktivitetslogg for en applikasjon, får du en oversikt som viser aktiviteter som er gjort for applikasjonen. 
@@ -122,7 +136,7 @@ I nedtrekklisten over aktivitetene kan du velge å se bestemte typer logginnslag
 
 Logginnslagene i aktivtitetsloggen er ordnet etter tidspunkt, og hvert logginnslag kan utvides til å vise mer informasjon om aktiviteten som er gjort. Klikk på raden i oversikten for å utvide og se informasjon om aktiviteten. 
 
-![Aktivitetslogg der et logginnslag er utvidet og viser mer informasjon om aktivieten.](img\Falk2.5\Tilgangstildeler-AktivitetsloggUtvidetLogginnslag.png)
+![Aktivitetslogg der et logginnslag er utvidet og viser mer informasjon om aktiviteten.](img\Falk2.5\Tilgangstildeler-AktivitetsloggUtvidetLogginnslag.png)
 
 ---
 Mer informasjon og veiledninger:

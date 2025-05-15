@@ -15,6 +15,8 @@ INNHOLDSLISTE
 * [Mine søknader](#Minesknader)
 * [Min aktivitet](#Minaktivitet)
 * [Bruker-profil](#Bruker-profil)
+* [Deaktivert tilgang](#Deaktiverttilgang)
+* [Reaktivere en dekativert tilgang](#Reaktivereendeaktiverttilgang)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -116,6 +118,8 @@ Når du klikker på raden for et register blir den utvidet til å vise hvilke ti
 ## <a name='Minesknader'></a>Mine søknader
 I fanen Mine søknader har du en oversikt over søknader du har sendt inn. For hver søknad kan blir det vist informasjon om når du søkte og status på søknaden. Hvis en søknaden er behandlet står det når den ble behandlet, og hvis søknaden ble avvist kan det stå en kommentar.
 
+Merk at
+
 ![Oversikten i fanen Mine Søknader.](img\Falk2.5\MineSøknader.png)
 
 ## <a name='Minaktivitet'></a>Min aktivitet
@@ -129,13 +133,32 @@ Noen aktiviteter som blir vist i loggen kan utvides til å vise mer informasjon.
 ## <a name='Bruker-profil'></a>Bruker-profil
 For å se din bruker-profil kan du klikke navnet ditt som er vist til høyre på menyen. 
 
-Bruker-profilen viser kontaktinformasjonen som er registrert på din bruker. Under kontaktinformasjonen vises knappen Endre informasjon. For å oppdatere din kontaktinformasjon kan du klikke på knappen og få opp et skjema for å oppdatere mobilnummer og epostadresse, og velge om du vil ha epostvarsling aktivert eller deaktivert. Merk at hvis du velger å slå av epost-varsling vil du ikke lenger motta noen eposter om behandlede søknader. 
+Bruker-profilen viser kontaktinformasjonen som er registrert på din bruker. Under kontaktinformasjonen vises knappen Endre informasjon. For å oppdatere din kontaktinformasjon kan du klikke på knappen og få opp et skjema for å oppdatere mobilnummer og epostadresse, og velge om du vil ha epostvarsling aktivert eller deaktivert. Merk at hvis du velger å slå av og deaktivere epost-varsling vil du ikke lenger motta noen eposter om behandlede søknader. 
 
 Har du endret på kontaktinformasjonen, husk å lagre endringene med å klikke Lagre endringer.
 
-Brukerprofilen din viser også rettigheter du har: Nedenfor kontaktinformasjonen vil du ha listen Mine tilganger som viser hvert register (applikasjon) og hvilken rollen du har ved hvilken enhet (avdeling).  
+Brukerprofilen din viser også rettigheter du har: 
+Nedenfor kontaktinformasjonen vil du ha listen Mine tilganger som viser hvert register (applikasjon) og hvilke roller du har ved hvilken enhet (avdeling).  
 
 ![Siden som viser bruker-profil med kontaktinformasjon og listen Mine tilganger](img\Falk2.5\BrukerProfil.png)
+
+## <a name= 'Deaktiverttilgang'></a>Deaktivert tilgang
+En tilgang du har hatt før, men som du ikke har nå, kan ha blitt deaktivert. Det er ikke nødvendig å søke om å få denne tilgangen på nytt. Du kan be om å få reaktiverte tilgangen i FALK. 
+
+Hvis en tilgang har blitt deaktivert får du varsel om at den har blitt deaktivert i en epost, hvis en epostadresse er registrert på brukeren din. 
+Eksempel på varsel i epost om tilgang som har blitt deaktivert:
+
+	Emne: Din tilgang til [Navnet til applikasjonen] er deaktivert
+	Din tilgang til [Navnet til applikasjonen] er deaktivert på grunn av inaktivitet.
+	Siste innlogging i [Navnet til applikasjonen] registrert 04.10.2024.
+	Logg inn i FALK for å be om reaktivering.
+
+## <a name= 'Reaktivereendeaktivert tilgang'></a>Reaktivere en deaktivert tilgang
+Når du logger inn i FALK og finner en tilgang som har blitt deaktivert, kan du be om å få reaktivert denne tilgangen. Du trenger ikke søke om tilgangen på nytt.
+
+Etter at du har bedt om reaktivering av en tilgang, kan den som er ansvarlig for å gi denne tilgangen gjøre tilgangen aktiv igjen, i brukeradministrasjon: I listen Brukerens tilganger kan Tilgangstildeler velge knappen Reaktiver som er vist sammen med den deaktiverte tilgangen.  
+
+[Klikk her å gå til veiledningen for tilgangstildeler som kan reaktivere en deaktivert tilgang, i Brukerdokumentasjon for tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md#reaktiver-deaktivert-tilgang)
 
 ---
 
