@@ -145,7 +145,7 @@ Nedenfor kontaktinformasjonen vil du ha listen Mine tilganger som viser hvert re
 ## <a name= 'Deaktiverttilgang'></a>Deaktivert tilgang
 En tilgang du har hatt før, men som du ikke har nå, kan ha blitt deaktivert. Det er ikke nødvendig å søke om å få denne tilgangen på nytt. Du kan be om å få reaktiverte tilgangen i FALK. 
 
-Hvis en tilgang har blitt deaktivert får du varsel om at den har blitt deaktivert i en epost, hvis en epostadresse er registrert på brukeren din. 
+Hvis en tilgang har blitt deaktivert får du varsel om at den har blitt deaktivert i en epost når en epostadresse er registrert på brukeren din. 
 Eksempel på varsel i epost om tilgang som har blitt deaktivert:
 
 	Emne: Din tilgang til [Navnet til applikasjonen] er deaktivert
@@ -153,10 +153,17 @@ Eksempel på varsel i epost om tilgang som har blitt deaktivert:
 	Siste innlogging i [Navnet til applikasjonen] registrert 04.10.2024.
 	Logg inn i FALK for å be om reaktivering.
 
-## <a name= 'Reaktivereendeaktiverttilgang'></a>Reaktivere en deaktivert tilgang
-Når du logger inn i FALK og finner en tilgang som har blitt deaktivert, kan du be om å få reaktivert denne tilgangen. Du trenger ikke søke om tilgangen på nytt.
+For å se om en tilgang har blitt deaktivert kan du logge på i Falk, klikke på navnet ditt for å komme til din bruker-profil. En tilgang som har blitt deaktivert er merket med teksten Deaktivert og har en knapp for å be om reaktivering. 
 
-Etter at du har bedt om reaktivering av en tilgang, kan den som er ansvarlig for å gi denne tilgangen gjøre tilgangen aktiv igjen, i brukeradministrasjon: I listen Brukerens tilganger kan Tilgangstildeler velge knappen Reaktiver som er vist sammen med den deaktiverte tilgangen.  
+## <a name= 'Reaktivereendeaktiverttilgang'></a>Reaktivere en deaktivert tilgang
+Når du logger inn i FALK og velger brukerprofil-siden, kan du oversikten Mine tilganger. I oversikten er en deaktivert tilgang merket som deaktivert, og du kan be om å få reaktivert denne tilgangen. Du trenger ikke søke om tilgangen på nytt, istedenfor velger du knappen Be om reaktivering.
+
+![Siden som viser bruker-profil med Mine tilganger hvor en tilgang er deaktivert og har knappen for å be om reaktivering](img\Falk2.5\BrukerProfil_DeaktivertTilgang.png)
+
+Etter at du har bedt om reaktivering av en tilgang blir det sendt en epost med varsel om at du har bedt om reaktivering, til den som er ansvarlig for å gi denne tilgangen. Tilgangstildeler for applikasjonen kan gjøre tilgangen aktiv igjen i brukeradministrasjon: I listen Brukerens tilganger kan Tilgangstildeler velge knappen Reaktiver som er vist sammen med den deaktiverte tilgangen.  
+
+![Siden som viser bruker-profil med Mine tilganger hvor brukeren har bedt om reaktivering av en deaktivert tilgang ](img\Falk2.5\BrukerProfil_DeaktivertTilgangReaktiverSøknadSendt.png)
+
 
 [Klikk her å gå til veiledningen for tilgangstildeler som kan reaktivere en deaktivert tilgang, i Brukerdokumentasjon for tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md#reaktiver-deaktivert-tilgang)
 

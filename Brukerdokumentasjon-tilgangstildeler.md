@@ -112,12 +112,14 @@ Du kan utsette automatisk deaktivering for en bruker.
 
 
 ### <a name='Reaktiverdeaktiverttilgang'></a>Reaktiver deaktivert tilgang
-For en bruker som har en eller flere rettigheter til en applikasjon som har blitt deaktivert, blir det sendt et varsel på epost til brukeren og til Tilgangstildeler om dette. Varselet til Tilgangstildeler har lenke til brukeren sine tilganger i Falk. 
+Hvis en bruker har en eller flere rettigheter til en applikasjon som har blitt deaktivert, blir det sendt et varsel på epost til brukeren og til Tilgangstildeler om dette. Varselet til Tilgangstildeler har lenke til brukeren sine rettigheter i applikasjonen i Falk. 
 
-Tilgangstildeler kan gjøre deaktiverte rettigheter aktive igjen ved å reaktivere hver rettighet til applikasjonen slik at tilgangen blir aktivert for brukeren igjen. Brukeren trenger ikke søke om tilgangen på nytt, men kan be om å få reaktivert rettigheten.  
+Brukeren trenger ikke søke om tilgangen på nytt, men kan be om å få reaktivert den, via brukerprofil-siden.
 
 [Klikk her for å gå til veiledningen for bruker som ønsker at tilgang blir reaktivert, i Brukerdokumentasjon for bruker.](Brukerdokumentasjon-bruker.md#Reaktivereendeaktiverttilgang)
 
+
+Som Tilgangstildeler kan du gjøre deaktiverte rettigheter aktive igjen ved å reaktivere hver rettighet til applikasjonen.
 
 ![Oversikten Brukerens tilganger som viser informasjon om deaktivert tilgang og knappen Reaktiver for tilgangen](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktiver1.png)
 
@@ -127,8 +129,7 @@ For å reaktivere en deaktivert tilgang:
 - På siden Administrer brukertilganger med informasjon om deaktiverte tilganger, finn tilgangen som du vil reaktivere. 
 - Velg Reaktiver-knappen for tilgangen.  
 
-Etter at tilgangen har blitt reaktiver blir tilgangen oppdatert og aktiv igjen. 
-
+Etter at tilgangen har blitt reaktiver blir tilgangen oppdatert og aktiv igjen.
 	Tips: Hvis en bruker har sendt ny søknad om tilgang for den tilgangen som har blitt deaktivert, i tillegg til å be om reaktivering av tilgangen, kan Tilgangstildeler velge å slette søknaden eller avvise søknaden med kommentar. Å reaktivere en tilgang påvirker ikke søknadsbehandlingen. Søknader blir liggende til de er behandlet, uavhengig av reaktivering. 
 
 ## <a name='Aktivitetslogg'></a>Aktivitetslogg 
