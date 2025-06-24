@@ -70,7 +70,8 @@ Du må legge til minst en rolle på en avdeling før du kan godkjenne søknaden.
 
 Knappene for å behandle søknaden er:
 - Avbryt: Gir deg mulighet til å gå ut av søknaden uten å gjøre noe med den eller avbryte uten å lagre det du har lagt inn hittil. 
-- Avvis søknad: Denne knappen kan du bruke for å melde fra at søknaden om tilgang ikke er godkjent. Når du velger knappen Avvis søknad får du opp et kommentarfelt som gir deg mulighet til å skrive inn en kommentar på hvorfor søknaden blir avvist. 
+- Avvis søknad: Denne knappen kan du bruke for å melde fra at søknaden om tilgang ikke er godkjent. 
+  Når du velger knappen Avvis søknad får du opp et kommentarfelt som gir deg mulighet til å skrive inn en kommentar på hvorfor søknaden blir avvist. 
 - Slett søknad vil slette søknaden når du velger denne knappen. Denne funksjonen er brukt for å fjerne duplikat-søknader uten å måtte avvise en slik søknad.
 - Godkjenn søknad: Denne knappen blir aktiv når du har lagt til minst en kombinasjon av rolle og avdeling. Denne bruker du når du vil gi tilgangen og godkjenne søknaden. 
 
@@ -112,27 +113,28 @@ Du kan utsette automatisk deaktivering for en bruker.
 
 
 ### <a name='Reaktiverdeaktiverttilgang'></a>Reaktiver deaktivert tilgang
-Hvis en bruker har en eller flere rettigheter til en applikasjon som har blitt deaktivert, blir det sendt et varsel på epost om deaktiveringen, til brukeren og til Tilgangstildeler for applikasjonen. I varselet til Tilgangstildeler er det en lenke til brukeren sine rettigheter i applikasjonen i Falk. 
+Hvis en bruker har en eller flere rettigheter til en applikasjon som har blitt deaktivert, blir det sendt et varsel på epost om deaktiveringen til brukeren og til tilgangstildeler for applikasjonen. I varselet til tilgangstildeler er det en lenke til brukeren sine rettigheter i applikasjonen i Falk. 
 
 Brukeren trenger ikke søke om tilgangen på nytt, men kan be om å få reaktivert den, via brukerprofil-siden.
 
 [Klikk her for å gå til veiledningen for bruker som ønsker at tilgang blir reaktivert, i Brukerdokumentasjon for bruker.](Brukerdokumentasjon-bruker.md#Reaktivereendeaktiverttilgang)
 
 
-Som Tilgangstildeler kan du gjøre en deaktiverte rettigheter aktive igjen ved å reaktivere hver rettighet til applikasjonen.
+Som Tilgangstildeler kan du gjøre deaktiverte rettigheter aktive igjen ved å reaktivere hver rettighet til applikasjonen.
 
 ![Oversikten Brukerens tilganger som viser informasjon om deaktivert tilgang og knappen Reaktiver for tilgangen](img\Falk2.5\AppAdmin-TilgangAdministrerBrukerReaktiver1.png)
 
 For å reaktivere en deaktivert tilgang: 
 - Velg applikasjonen i applikasjonsoversikten og gå til fanen Tilgang. 
 - Finn brukeren i oversikten som viser brukere og velg Administrer bruker.
-- På siden Administrer brukertilganger med informasjon om deaktiverte tilganger, finn tilgangen som du vil reaktivere i listen som viser brukerens tilganger. 
+- På siden Administrer brukertilganger med informasjon om brukeren og brukerens deaktiverte tilganger, finn den tilgangen som du vil reaktivere i listen som viser brukerens tilganger. 
 - Velg Reaktiver-knappen for tilgangen.  
 
 Etter at tilgangen har blitt reaktivert blir tilgangen oppdatert og aktiv igjen. 
 
-	Tips: Hvis en bruker har sendt ny søknad om tilgang for en tilgang som har blitt deaktivert, i tillegg til å be om reaktivering av tilgangen, kan Tilgangstildeler velge å slette søknaden eller avvise søknaden med kommentar. 
-	Å reaktivere en tilgang påvirker ikke søknadsbehandlingen. Søknader blir liggende til de er behandlet, uavhengig av reaktivering. 
+Tips: Hvis en bruker har sendt ny søknad om tilgang for en tilgang som har blitt deaktivert, i tillegg til 
+å be om reaktivering av tilgangen, kan Tilgangstildeler velge å slette søknaden eller avvise søknaden med kommentar. 
+Å reaktivere en tilgang påvirker ikke søknadsbehandlingen. Søknader blir liggende til de er behandlet, uavhengig av reaktivering. 
 
 ## <a name='Aktivitetslogg'></a>Aktivitetslogg 
 Når du velger fanen som heter Aktivitetslogg for en applikasjon, får du en oversikt som viser aktiviteter som er gjort for applikasjonen. 
@@ -142,8 +144,8 @@ Når du velger fanen som heter Aktivitetslogg for en applikasjon, får du en ove
 I nedtrekklisten over aktivitetene kan du velge å se bestemte typer logginnslag, for eksempel logginnslag som viser når en bruker har logget på, når det er gitt rettighet til applikasjonen og når det er fjernet en rettighet til applikasjonen. 
 
 ![Aktivitetslogg-menyen med valgene for å se en bestemt type logginnslag.](img\Falk2.5\Tilgangstildeler-AktivitetsloggLoggtyper.png)
-
-Logginnslagene i aktivtitetsloggen er ordnet etter tidspunkt, og hvert logginnslag kan utvides til å vise mer informasjon om aktiviteten som er gjort. Klikk på raden i oversikten for å utvide og se informasjon om aktiviteten. 
+Logginnslagene i aktivtitetsloggen er ordnet etter tidspunkt. Logginnslag  som handler om rettigheter, for eksempel rettigheter lagt til, endret eller slettet, kan du utvide for å få mer informasjon om aktiviteten: 
+- Klikk på raden til et logginnslag i aktivitetsloggen for å utvide og lese detaljer om aktiviteten. 
 
 ![Aktivitetslogg der et logginnslag er utvidet og viser mer informasjon om aktiviteten.](img\Falk2.5\Tilgangstildeler-AktivitetsloggUtvidetLogginnslag.png)
 

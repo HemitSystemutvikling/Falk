@@ -94,7 +94,7 @@ Det er mulig å utsette automatisk deaktivering av tilganger en bruker har, og �
 ### <a name='Reaktivertilgang'></a>Reaktiver tilgang
 For en bruker som har en eller flere tilganger som har blitt deaktivert, kan du gjøre tilgangen aktiv igjen:
 [Klikk her å gå til veiledningen for å reaktivere en tilgang som har blitt deaktivert i Brukerdokumentasjon for Applikasjonsadmin.](Brukerdokumentasjon-applikasjonsadmin.md#Reaktivertilgang)
-
+En bruker som har fått deaktivert en tilgang trenger ikke søke om tilgangen på nytt. Brukeren kan be om reaktivering via brukerprofilsiden. 
 
 ## <a name='M2M-Klienter'></a>M2M-Klienter
 For å se og administrere M2M-klienter, maskin-til-maskin-klienter, kan du velge M2M-klienter under Administrere. 
@@ -129,7 +129,7 @@ Når du velger Legg til ny applikasjonstype blir skjemaet for å registrere den 
 ![Skjema for å legge til ny applikasjonstype.](img\Falk2.5\FalkAdmin-Applikasjonstyper_LeggTilNy.png)
 
 Når du har valgt riktig claim-type bruker du avkryssingsboksene for å definere hva claim-typen skal angi: 
-- EnhetsId, OrgUnitid, ReshId, 
+- EnhetsId, OrgUnitId, ReshId, 
 - roller, og 
 - bestemme om det skal være lov å sette spesifikke claim-verdier. 
 
