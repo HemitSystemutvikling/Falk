@@ -187,11 +187,20 @@ For hver klient er det knapper for å åpne klienten og gjøre endringer på den
 
 ![Applikasjon med fanen Klienter i fokus.](img\Falk2.5\FalkAdmin-Applikasjon_Klienter.png)
 
-Når du velger knappen Legg til klient får du opp et skjema med felt du må fylle ut for å legge til den nye klienten. Når feltene er fylt ut klikker du Legg til i skjemaet, for å lukke skjemaet og legge til klienten. 
-Den nye klienten du har lagt til blir vist i listen i fanen Klienter. 
-Pass på å klikke Lagre-knappen for å lagre klienter  som du har lagt til  applikasjonen. 
+Når du velger knappen Legg til klient får du opp et skjema med felt du må fylle ut for å legge til den nye klienten. 
+I skjemaet for å legge til ny klient kan du velge klienttype. Hvis du velger klienttype Code blir feltene for å registrere URI, Redirect-URI, Front CHannel Logout-URI og Post Logout Redirect-URI vist sammen med felt for å legge til en eller flere klienthemmeligheter:
 
 ![Skjema for å legge til ny klient for en applikasjon.](img\Falk2.5\FalkAdmin-Applikasjon_KlienterLeggTilNy.png)
+
+
+Hvis du velger klienttype Hubro viser skjemaet felt du må fylle ut for denne typen klient: 
+
+![Skjema for å legge til ny Hybro-klient for en applikasjon.](img\Falk2.5\FalkAdmin-Applikasjon_KlienterLeggTilNy_HubroClient.png)
+
+Når feltene i skjemaet er fylt ut med klienttype, navn og innstillinger og du har lagt til en eller flere klienthemmeligheter, klikker du Legg til i skjemaet for å lagre og lukke skjemaet. 
+
+Når du har klikket Legg til i skjemaet for den nye klienten blir skjemaet lukket, og du kommer tilbake til fanen Klienter. Den nye klienten du har lagt til blir vist i listen i fanen Klienter. 
+Pass på å klikke Lagre-knappen for å lagre en eller flere klienter som du har lagt til applikasjonen, før du går ut av applikasjonen.
 
 
 ---
