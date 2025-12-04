@@ -16,6 +16,7 @@ INNHOLDSLISTE
 * [Min aktivitet](#Minaktivitet)
 * [Bruker-profil](#Bruker-profil)
 * [Deaktivert tilgang](#Deaktiverttilgang)
+* [Slettet tilgang](#Slettettilgang)
 * [Reaktivere en dekativert tilgang](#Reaktivereendeaktiverttilgang)
 
 <!-- vscode-markdown-toc-config
@@ -154,6 +155,17 @@ Eksempel på varsel i epost om tilgang som har blitt deaktivert:
 	Logg inn i FALK for å be om reaktivering.
 
 For å se om en tilgang har blitt deaktivert kan du logge på i Falk, klikke på navnet ditt for å komme til din bruker-profil. En tilgang som har blitt deaktivert er merket med teksten Deaktivert og har en knapp for å be om reaktivering. 
+
+## <a name= 'Slettettilgang'></a>Slettet tilgang
+En tilgang du har hatt tidligere kan ha blitt slettet, enten manuelt av en tilgangstildeler eller automatisk basert på tolv -12- måneder inaktivet. 
+Hvis en tilgang er blitt slettet får du varsel om slettingen i en epost, hvis en epostaddresse er registrert på din bruker. Eksempel på varsel i epost om tilgang som har blitt slettet på grunn av inaktivitet:
+
+	Emne: Din tilgang til [Navnet på applikasjonen] er fjernet
+	Din tilgang til [Navnet til applikasjonen] er fjernet på grunn av inaktivitet
+	Siste innlogging i [Navnet til applikasjonen] registrert 04.10.2024.
+	Logg inn i FALK for å be om nye tilganger.
+
+Hvis en tilgang er slettet er det ikke mulig å reaktivere tilgangen. Ønskes det å gjennopprette tilgangen må en ny søknad om tilgang fylles ut og godkjennes av tilgangstildeler for enheten.
 
 ## <a name= 'Reaktivereendeaktiverttilgang'></a>Reaktivere en deaktivert tilgang
 Når du logger inn i FALK og velger brukerprofil-siden, kommer du til oversikten Mine tilganger. I oversikten er en deaktivert tilgang merket som deaktivert, og du kan be om å få reaktivert denne tilgangen. Du trenger ikke søke om tilgangen på nytt. Velg knappen Be om reaktivering.

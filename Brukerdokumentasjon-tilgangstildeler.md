@@ -71,7 +71,7 @@ Du må legge til minst en rolle på en avdeling før du kan godkjenne søknaden.
 Knappene for å behandle søknaden er:
 - Avbryt: Gir deg mulighet til å gå ut av søknaden uten å gjøre noe med den eller avbryte uten å lagre det du har lagt inn hittil. 
 - Avvis søknad: Denne knappen kan du bruke for å melde fra at søknaden om tilgang ikke er godkjent. 
-  Når du velger knappen Avvis søknad får du opp et kommentarfelt som gir deg mulighet til å skrive inn en kommentar på hvorfor søknaden blir avvist. 
+  Når du velger knappen Avvis søknad får du opp et kommentarfelt som gir deg mulighet til å skrive inn en kommentar på hvorfor søknaden blir avvist. Denne kommentaren er tilgjenglig for søkeren både i Falk og utsendt epost om status endring på søknaden.
 - Slett søknad vil slette søknaden når du velger denne knappen. Denne funksjonen er brukt for å fjerne duplikat-søknader uten å måtte avvise en slik søknad.
 - Godkjenn søknad: Denne knappen blir aktiv når du har lagt til minst en kombinasjon av rolle og avdeling. Denne bruker du når du vil gi tilgangen og godkjenne søknaden. 
 
