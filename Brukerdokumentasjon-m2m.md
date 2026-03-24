@@ -9,6 +9,9 @@ INNHOLDSLISTE
 * [API-ressurser](#API-ressurser)
 	* [Legg til ny API-ressurs](#LeggtilnyAPI-ressurs)
 * [Tilgang](#Tilgang)
+* [Administrer klienttilganger](#Administrer-klienttilganger)
+* [Gi ny tilgang for M2M-klient](#Gi-ny-tilgang)
+
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -37,7 +40,7 @@ Det er bare Falk Administrator som kan sette opp og aktivere Maskin til Maskin-k
 Falk Admininistrator har et menyvalg i fanen Administrere for å se og administrere maskin til maskin-klienter: M2M-klienter. 
 
 Når du velger M2M-klienter vil du få opp siden som viser oversikten over M2M-klientene i Falk. Du kan bruke søkefeltet på siden for å søke etter en M2M-klient.  
-Hver M2M-klient blir vist som en rad i oversikten. For hver klient vises antallet API-scope og hvor mange applikasjoner som M2M-klienten har tilgang til. I tillegg kan du se om en M2M-klient er aktiv.
+Hver M2M-klient blir vist som en rad i oversikten. For hver klient vises antall API-scopes og hvor mange applikasjoner M2M-klienten har tilgang til. I tillegg kan du se om en M2M-klient er aktiv.
 
 ![Oversikten M2M-klienter i Falk.](img\Falk2.5\m2m-klienter.png)
 
@@ -48,19 +51,26 @@ Velg en M2M-klient i oversikten for å åpne den og få opp mer informasjon om M
 
 ![Fanen Konfigurasjon som viser API-ressursene i en liste og knappen for å endre.](img\Falk2.5\m2m-klient-Konfigurasjon.png)
  
-I fanen Konfigurasjon for M2M-klienten har du også knappen for å endre på M2M-klienten. Når du velger knappen Endre blir M2M-klienten åpnet og knappene for å avbryte endringen, slette klienten og lagre endringer blir vist. 
+I fanen Konfigurasjon for M2M-klienten har du også knappen for å endre på M2M-klienten. Når du velger knappen Endre blir M2M-klienten åpnet for redigering og gir tilgang til knapper du kan bruke til å avbryte redigeringen, slette M2M-klienten eller lagre endringer du har gjort. 
 
 ![M2M-klient i redigeringsmodus.](img\Falk2.5\m2m-klient-KonfigurasjonEndre.png)
 
-Når du velger å endre på en M2M-klient har du tilgang til å velge scopes som skal brukes for hver API-ressurs: Huk av avkryssingsboksen for det eller de scopes som skal være tilgjengelige og aktive, og fjern avkryssingen i avkryssingsboksen for å gjøre det utilgjengelig. 
+Når du velger å endre på en M2M-klient får du tilgang til å velge ett eller flere scopes som skal brukes for hver API-ressurs: Huk av avkryssingsboksen for et scope som skal være tilgjengelig og aktivt, og fjern avkryssingen i avkryssingsboksen for å gjøre et scope utilgjengelig. 
 
-Når du er ferdig med å endre konfigurasjonen velger du Lagre-knappen for å få lagret endringene. Endringer som er utført for M2M-klienten blir loggført i aktivitetsloggen. Du kan se disse å velge fanen Aktivitetslogg. 
+Når du er ferdig med å endre konfigurasjonen, velg Lagre-knappen for lagre endringene du har gjort. Endringer som er utført for M2M-klienten blir loggført i aktivitetsloggen. Du kan se disse å velge fanen Aktivitetslogg. 
 
-Hvis du velger fanen Kontakt får du opp en oversikt over kontaktpersoner for M2M-klienten sammen med funksjonen for å legge til ny kontaktperson. For hver kontaktperson må du oppgi navn og epostadresse, i tillegg kan du registrere organisasjon og telefonnummer.  
+Hvis du velger fanen Kontakt får du opp en oversikt som viser registrerte kontakter for M2M-klienten og tilgang til funksjonen for å legge til ny kontakt. 
 
-![M2M-klient kontaktperson.](\img\Falk2.5\m2m-klient-Kontakt.png)
 
-![Legg til ny kontaktperson.](\img\Falk2.5\m2m-klient-Kontakt-LeggTilNy.png)
+![Liste som viser kontakt for M2M-klient.](FALK\img\Falk2.5\m2m-klient-Kontakt.png)
+
+Når du velger å legge til en ny kontakt må du oppgi navn og epostadresse, i tillegg kan du registrere organisasjon og telefonnummer. Hver kontakt blir vist i fanen Kontakter og kan slettes eller endres.  
+
+![Legg til ny kontakt.](Falk\img\Falk2.5\m2m-klient-Kontakt-LeggTilNy.png)
+
+
+![Ny kontakt blir vist i listen.](\img\Falk2.5\m2m-klient-Kontakt-2.png)
+
 
 I fanen Konfigurasjon har du tilgang til å slette M2M-klienten ved å velge Slett-knappen. M2M-klienten blir slettemerket i databasen. Applikasjoner som har gitt tilgang til en slettet M2M-klient viser fortsatt M2M-klienten og identifikatoren, i listen M2M-klienter i fanen Tilganger, men uten noen aktive tilganger. 
 
@@ -72,7 +82,7 @@ Når du velger fanen Aktivitetslogg i M2M-klienten får du en oversikt over akti
 
 Du kan se mer informasjon om hvert innslag i Aktivitetslogg ved å klikke på det. 
 
-![Aktivitetslogg for en M2M-klient som viser innslag .](img\Falk2.5\m2m-klient-AktivitetsloggKlientModifisert_Utvidet.png)
+![Aktivitetslogg for en M2M-klient som viser innslag.](img\Falk2.5\m2m-klient-AktivitetsloggKlientModifisert_Utvidet.png)
 
 
 ## <a name='API-ressurser'></a>API-ressurser
@@ -102,29 +112,41 @@ Når du har lagt til API-ressursen og registrert scopes for den, lagrer du ved �
 ## <a name='Tilgang'></a>Tilgang
 Falk Administrator har tilgang å administrere M2M-klienter for hver applikasjon. Dette gjøres via fanen Tilgang i applikasjonen. 
 
-I applikasjonen du vil administrere, velg fanen Tilgang. Når fanen Tilgang blir åpnet og viser fanen Brukere i fokus, velger du fanen M2M-klienter som ligger i bakgrunnen. 
+Åpne den applikasjonen du vil administrere og velg fanen Tilgang. Når fanen Tilgang blir åpnet og viser fanen Brukere i fokus, velg fanen M2M-klienter. 
 
 
-![Oversikten som viser en M2M-klient som har tilgang til applikasjonen.](img\Falk2.5\m2m-TilgangAdministrer.png)
+![Oversikten som viser en M2M-klient som har tilgang til applikasjonen.](img/Falk2.5/FalkAdmin-Applikasjon_Tilgang-m2m-klienter.png)
 
-Fanen M2M-klienter viser de M2M-klientene som har en eller flere tilganger til applikasjonen sammen med en knapp for å gi M2M-klienter tilgang. 
-Dersom det ikke er gitt noen M2M-klienter tilgang til applikasjonen viser fanen informasjon om dette. 
+Fanen M2M-klienter viser hver M2M-klient som har tilgang til applikasjonen og to funksjoner
+- funksjon for å laste ned CSV-fil som viser M2M-klientene
+- funksjon for å gi M2M-klienter tilgang til applikasjonen. 
+Dersom ingen M2M-klienter har fått tilgang til applikasjonen viser fanen informasjon om dette. 
 
-![Tilgang](img\Falk2.5\m2m-tilgang.png)
+Når en M2M-klient har tilgang til applikasjonen, kan du klikke på denne M2M-klienten i oversikten. Informasjon om M2M-klienten blir vist og du får tilgang til funksjonen for å administrere rettighetene for M2M-klienten: 
 
-For å gi en M2M-klient tilgang til applikasjonen, velg knappen Gi ny tilgang i fanen M2M-klienter. Vær oppmerksom på at dette krever at det eksisterer M2M-klienter som ikke har tilgang til applikasjonen fra før.
+![Oversikten som viser en valgt M2M-klient og knappen Administrer tilganger.](img/Falk2.5/FalkAdmin-Applikasjon_Tilgang-m2m-klienter-Utvidet.png)
 
-![Skjema for å velge M2M-klient og gi den tilgang til rolle og avdeling.](img\Falk2.5\m2m-Tilgang-GiNy.png)
+### <a name='Administrer-klienttilganger'></a>Administrer klienttilganger
 
-![Skjema som viser en valgt M2M-klient med en rolle- og avdelingskombinasjon og felt for å legge til flere kombinasjoner.](img\Falk2.5\m2m-TilgangGiNy2.png)
+Velg knappen Administrer tilganger for en M2M-klient for å åpne skjemaet og tildele tilganger eller fjerne tilganger som M2M-klienten har til applikasjonen. 
 
-Når det finnes M2M-klienter som har tilgang til applikasjonen, kan du klikke på denne M2M-klienten i oversikten. Mer informasjon om M2M-klienten blir vist sammen med en knapp for å administrere tilganger som denne M2M-klienten har. 
+I skjemaet vises også navnet, identifikatoren og hvilke tilganger denne M2M-klienten har. 
+ 
 
-![Oversikten som viser en valgt M2M-klient og knappen Administrere Tilganger.](img\Falk2.5\m2m-TilgangAdministrer2.png)
+![Skjema for å administrere M2M-klientens tilganger.](img/Falk2.5/FalkAdmin-Applikasjon_Tilgang-m2m-klienter-AdministrerKlienttilganger.png)
 
-Velg knappen Administrere tilganger for M2M-klienten for å komme til skjemaet for å se og endre hvilke tilganger den har. Når du har valgt knappen Administrer tilganger for en M2M-klient, kommer du til skjemaet der du ser navnet til M2M-klienten og informasjon om den. I skjemaet kan du tildele flere tilganger og fjerne tilganger M2M-klienten har til applikasjonen.
 
-![Skjema for å administrere tilgang for M2M-klienten med felt for å legge til rolle- og avdelingskombinasjoner og for å fjerne eksisterende tilgang.](img\Falk2.5\m2m-TilgangAdministrer3.png)
+Merk at en slettemerket M2M-klient vises i oversikten, men den vises uten noen rettigheter når velger Administrer tilganger. 
+
+### <a name='Gi-ny-tilgang'></a>Gi ny tilgang for M2M-klient
+
+For å gi en M2M-klient tilgang til applikasjonen, velg knappen Gi ny tilgang. Du vil få opp skjemaet for å velge M2M-klienter og definere klientens tilganger til en gitt rolle og enhet:
+
+![Oversikten som viser en valgt M2M-klient og knappen Administrer tilganger.](img/Falk2.5/FalkAdmin-Applikasjon_Tilgang-m2m-klienter_GiNyTilgang.png)
+
+![Skjema som viser en M2M-klient og felt for å legge til rolle og enhet.](img/Falk2.5/FalkAdmin-Applikasjon_Tilgang-m2m-klienter-GiNyTilgang-LeggTil.png)
+
+
 
 ---
 
@@ -143,3 +165,5 @@ Mer informasjon og veiledninger:
 >[ Brukerveledning for Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
 
 >[ Til toppen av denne siden](#Brukerveiledning-for-m2m-klienter)
+
+[def]: \img\Falk2.5\m2m-klient-Kontakt.png

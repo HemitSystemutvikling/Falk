@@ -48,9 +48,9 @@ I tillegg har Applikasjonsadministrator tilgang til å se og administrere tilgan
 ## <a name='Applikasjoner'></a>Applikasjoner
 ### <a name='Tilgang'></a>Tilgang  
 Når du velger fanen Tilgang får du opp en oversikt som viser brukere som har tilgang til applikasjonen. 
-Merk at denne oversikten blir vist i en egen fane som heter Brukere, med en fane som heter M2M-klienter i bakgrunnen, når pålogget bruker er en FALK Administrator.
+Merk at denne oversikten blir vist i en egen fane som heter Brukere. En fane som heter M2M-klienter blir vist i bakgrunnen når pålogget bruker er Falk Administrator.
 
-Oversikten som brukere har søkefelt og felt for å velge å filtrere brukerne på en bestemt enhet/avdeling eller alle enheter, i kombinasjon med en bestemt rolle eller alle roller. 
+Oversikten som viser brukere har søkefelt og felt for å velge å filtrere brukerne på en bestemt enhet/avdeling eller alle enheter, i kombinasjon med en bestemt rolle eller alle roller. 
 
 ![Tilgang-fanen som viser brukere i en liste.](img\Falk2.5\AppAdmin-TilgangBrukere.png)
 
