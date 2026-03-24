@@ -36,29 +36,38 @@ Det er bare Falk Administrator som kan sette opp og aktivere Maskin til Maskin-k
 ## <a name='M2M-klienter'></a>M2M-klienter
 Falk Admininistrator har et menyvalg i fanen Administrere for å se og administrere maskin til maskin-klienter: M2M-klienter. 
 
-Når du velger M2M-klienter vil du få en oversikt som viser M2M-klientene i Falk. 
-Hver M2M-klient blir vist som en rad i oversikten, sammen med antallet API-scope og hvor mange rettigheter M2M-klienten har. I tillegg kan du se om en M2M-klient er aktiv.
+Når du velger M2M-klienter vil du få opp siden som viser oversikten over M2M-klientene i Falk. Du kan bruke søkefeltet på siden for å søke etter en M2M-klient.  
+Hver M2M-klient blir vist som en rad i oversikten. For hver klient vises antallet API-scope og hvor mange applikasjoner som M2M-klienten har tilgang til. I tillegg kan du se om en M2M-klient er aktiv.
 
 ![Oversikten M2M-klienter i Falk.](img\Falk2.5\m2m-klienter.png)
 
-Ved å velge en M2M-klient i oversikten åpner du den og får opp mer informasjon om får tilgang til å endre på den. Fanen Konfigurasjon er i fokus når du åpner klienten og viser 
-- navnet til klienten og identifikatoren sammen med en avkryssingsboks som viser om M2M-klienten er aktiv eller inaktiv, 
-- listen API-ressurser som viser de API-ressursene som finnes og hvilke scopes som er satt opp og aktive eller inaktive for hver API-ressurs, 
-- liste med navet til de applikasjonene som er satt opp med denne klienten. Du har mulighet til å klikke på et navn for å navigere til den applikasjonen herfra.  
+Velg en M2M-klient i oversikten for å åpne den og få opp mer informasjon om M2M-klienten. Fanen Konfigurasjon er i fokus når du åpner klienten og viser 
+- navnet til klienten, identifikatoren og avkryssingsboksen som viser om M2M-klienten er aktiv eller inaktiv, 
+- listen API-ressurser som viser de API-ressursene som finnes, hvilke scopes som er satt opp og som er aktive eller inaktive for hver API-ressurs, 
+- listen Applikasjoner som viser navnet til de applikasjonene som er satt opp med denne klienten. Du kan klikke på navnet til applikasjonen for å navigere til direkte til applikasjonen herfra.  
 
 ![Fanen Konfigurasjon som viser API-ressursene i en liste og knappen for å endre.](img\Falk2.5\m2m-klient-Konfigurasjon.png)
  
-I fanen Konfigurasjon for M2M-klienten har du også knappen for å endre og oppdatere M2M-klienten. Velg knappen Endre for å åpne M2M-klienten og gjøre endringer. 
+I fanen Konfigurasjon for M2M-klienten har du også knappen for å endre på M2M-klienten. Når du velger knappen Endre blir M2M-klienten åpnet og knappene for å avbryte endringen, slette klienten og lagre endringer blir vist. 
 
-![M2M-klient i redigeringsmodus.](img\Falk2.5\m2mklient-KonfigurasjonEndre.png)
+![M2M-klient i redigeringsmodus.](img\Falk2.5\m2m-klient-KonfigurasjonEndre.png)
 
-Når du velger å endre på en M2M-klient har du tilgang til å bestemme scopes som skal brukes for hver API-ressurs: Huk av avkryssingsboksen for det eller de scopes som skal være tilgjengelige og aktive, og fjern avkryssingen i avkryssingsboksen for å gjøre det utilgjengelig. 
+Når du velger å endre på en M2M-klient har du tilgang til å velge scopes som skal brukes for hver API-ressurs: Huk av avkryssingsboksen for det eller de scopes som skal være tilgjengelige og aktive, og fjern avkryssingen i avkryssingsboksen for å gjøre det utilgjengelig. 
 
-Når du er ferdig med å endre og har bestemt scopes for hver API-ressurs, klikk Lagre under listen. 
+Når du er ferdig med å endre konfigurasjonen velger du Lagre-knappen for å få lagret endringene. Endringer som er utført for M2M-klienten blir loggført i aktivitetsloggen. Du kan se disse å velge fanen Aktivitetslogg. 
 
-Endringer som er utført for M2M-klienten blir loggført i aktivitetsloggen. Du kan se disse å velge fanen Aktivitetslogg. 
+Hvis du velger fanen Kontakt får du opp en oversikt over kontaktpersoner for M2M-klienten sammen med funksjonen for å legge til ny kontaktperson. For hver kontaktperson må du oppgi navn og epostadresse, i tillegg kan du registrere organisasjon og telefonnummer.  
 
-![Aktivitetslogg for en M2M-klient.](img\Falk2.5\m2mklient-Aktivitetslogg.png)
+![M2M-klient kontaktperson.](\img\Falk2.5\m2m-klient-Kontakt.png)
+
+![Legg til ny kontaktperson.](\img\Falk2.5\m2m-klient-Kontakt-LeggTilNy.png)
+
+I fanen Konfigurasjon har du tilgang til å slette M2M-klienten ved å velge Slett-knappen. M2M-klienten blir slettemerket i databasen. Applikasjoner som har gitt tilgang til en slettet M2M-klient viser fortsatt M2M-klienten og identifikatoren, i listen M2M-klienter i fanen Tilganger, men uten noen aktive tilganger. 
+
+En M2M-klient som har blitt slettet kan tilbakeføres i databasen og ved tilbakeføringen vil aktivitetloggen vise informasjon om slettingen av M2M-klienten.
+
+
+![Aktivitetslogg for en M2M-klient.](img\Falk2.5\m2m-klient-Aktivitetslogg.png)
 Når du velger fanen Aktivitetslogg i M2M-klienten får du en oversikt over aktiviteter som er utført, ordnet etter dato. Oversikten har en nedtrekksmeny der du kan velge å se bestemte aktiviteter, for eksempel når klienten er endret på (Klient modifisert), rettigheter som har blitt slettet og opprettet ny klient. 
 
 Du kan se mer informasjon om hvert innslag i Aktivitetslogg ved å klikke på det. 
