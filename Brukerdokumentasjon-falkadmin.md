@@ -57,8 +57,11 @@ Som Falk Admininistrator har du samme rettigheter som en [Applikasjonsadministra
 
 ## <a name='Varsler'></a>Varsler
 Når du velger Varsler i Administrer-menyen, kommer du til en oversikt over varsler som er satt opp i Falk.
-Disse varslene kan blir vist til alle brukere i Falk, hvis varslene er aktive.
+Disse varslene kan bli vist til alle brukere i Falk, hvis varslene er aktive.
 Du har muligheten til å Legge til varsler, og til å endre og slette varsler herfra.
+
+Listen som viser varsler kan sorteres etter til- eller fra-dato ved å trykke på pilene ved kolonneoverskriftene.
+
 
 ![Varsler-oversikten og tre forskjellige varsler som er vist fordi de er aktive.](img\Falk2.5\FalkAdmin-Varselnavn.png)
 

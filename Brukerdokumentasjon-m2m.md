@@ -140,9 +140,9 @@ Merk at en slettemerket M2M-klient vises i oversikten, men den vises uten noen r
 
 ### <a name='Gi-ny-tilgang'></a>Gi ny tilgang for M2M-klient
 
-For å gi en M2M-klient tilgang til applikasjonen, velg knappen Gi ny tilgang. Du vil få opp skjemaet for å velge M2M-klienter og definere klientens tilganger til en gitt rolle og enhet:
+For å gi en M2M-klient tilgang til applikasjonen, velg knappen Gi ny tilgang i fanen M2M-klienter. Du vil få opp skjemaet for å velge M2M-klienter og for å bestemme M2M-klientens tilganger til en gitt rolle og enhet:
 
-![Oversikten som viser en valgt M2M-klient og knappen Administrer tilganger.](img/Falk2.5/FalkAdmin-Applikasjon_Tilgang-m2m-klienter_GiNyTilgang.png)
+![Oversikten som viser M2M-klient som har tilgang til applikasjonen og knappen Gi ny tilgang.](img/Falk2.5/FalkAdmin-Applikasjon_Tilgang-m2m-klienter.png)
 
 ![Skjema som viser en M2M-klient og felt for å legge til rolle og enhet.](img/Falk2.5/FalkAdmin-Applikasjon_Tilgang-m2m-klienter-GiNyTilgang-LeggTil.png)
 
@@ -166,4 +166,3 @@ Mer informasjon og veiledninger:
 
 >[ Til toppen av denne siden](#Brukerveiledning-for-m2m-klienter)
 
-[def]: \img\Falk2.5\m2m-klient-Kontakt.png

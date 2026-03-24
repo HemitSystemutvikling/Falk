@@ -50,7 +50,7 @@ I tillegg har Applikasjonsadministrator tilgang til å se og administrere tilgan
 Når du velger fanen Tilgang får du opp en oversikt som viser brukere som har tilgang til applikasjonen. 
 Merk at denne oversikten blir vist i en egen fane som heter Brukere. En fane som heter M2M-klienter blir vist i bakgrunnen når pålogget bruker er Falk Administrator.
 
-Oversikten som viser brukere har søkefelt og felt for å velge å filtrere brukerne på en bestemt enhet/avdeling eller alle enheter, i kombinasjon med en bestemt rolle eller alle roller. 
+Oversikten som viser brukere har søkefelt og felt for å velge å filtrere brukerne enten på en bestemt enhet eller alle enheter, i kombinasjon med en bestemt rolle eller alle roller. 
 
 ![Tilgang-fanen som viser brukere i en liste.](img\Falk2.5\AppAdmin-TilgangBrukere.png)
 
@@ -88,7 +88,7 @@ Tilganger som en bruker har kan bli automatisk deaktivert hvis brukeren ikke har
 Du kan utsette deaktiveringen av rettigheter som er i ferd med å bli deaktivert: 
 - I fanen Tilgang for applikasjonen, velg Admininstrer bruker for å komme til siden som viser informasjon om brukeren sammen med funksjonen Utsett automatisk deaktivering. 
 - For å hindre at brukerens rettigheter blir deaktivert, velg Utsett automatisk deaktivering. 
-- I listen som viser Brukerens tilganger blir hver rolle og avdeling som brukeren har rettighet til oppdatert med tidspunkt for neste deaktivering, for eksempel 365 dager fra det tidspunktet som du har valgt Utsett automatisk deaktivering. 
+- I listen som viser Brukerens tilganger blir hver rolle og enhet som brukeren har rettighet til, oppdatert med tidspunkt for neste deaktivering, for eksempel 365 dager fra det tidspunktet som du har valgt Utsett automatisk deaktivering. 
 
 ![Side som viser informasjon om brukeren med tidspunktet for utsatt deaktivering for hver rettighet brukeren har.](img/Falk2.5/AppAdmin-TilgangAdministrerBrukerUtsattDeaktivering.png)
 
@@ -145,17 +145,17 @@ Et eksempel på et json-objekt kan være følgende:
         "OrderDescription": "This is an order",
         "PreAuthorizedOrders": [{
             "PersonIdentifier": "17078614919",
-            "FirstName": "Putte",
-            "LastName": "Andresen",
+            "FirstName": "Testperson",
+            "LastName": "Hemit",
             "PhoneNumber": "99887766",
-            "Email": "putte.andresen@hemit.no",
+            "Email": "testperson.hemit@hemit.no",
             "Claims": [{
                     "Type": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
                     "Value": "Pasientansvarlig"
                 },
                 {
                     "Type": "http://schemas.hemit.no/Hemit/Mqr/Claims/AuthorizedForOrganizationalUnit",
-                    "Value": "100320"
+                    "Value": "101010"
                 }
             ]
         }]
