@@ -41,14 +41,15 @@ Du kan søke etter informasjon på denne siden med Ctrl+ F:
 [Klikk her for veiledning for innlogging.](LoggInn.md)
 
 ## <a name='ApplikasjonsadmininistratoriFalk'></a>Applikasjonsadmininistrator i Falk
-Applikasjonsadministrator, App Admin, har samme rettigheter som en [Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md)
-I tillegg har Applikasjonsadministrator tilgang til å se og administrere tilgangstildelere for applikasjoner, og til å importere forhåndsautoriserte søknader om tilgang. Det vil si at når du er Applikasjonsadministator i Falk og åpner en applikasjon, ser du fanen Tilgangsdelere og Importer Preautoriserte Søknader, i tillegg til fanene Egenskaper, Søknader og Tilgang. 
+Hver applikasjon i Falk kan ha en eller flere brukere som har fått tildelt rollen Applikasjonsadministrator for applikasjonen. 
+Applikasjonsadministrator, App Admin, har samme rettigheter som en [Tilgangstildeler](Brukerdokumentasjon-tilgangstildeler.md) 
+I tillegg har Applikasjonsadministrator tilgang til å se og administrere tilgangstildelere for applikasjoner, og til å importere preautoriserte søknader om tilgang i fanen Importer Preautoriserte Søknader. Det vil si at når du er Applikasjonsadministator i Falk og åpner en applikasjon, ser du fanen Tilgangsdelere og Importer Preautoriserte Søknader, i tillegg til fanene Egenskaper, Søknader og Tilgang som rollen Tilgangsdeler også har tilgang til. 
 
 
 ## <a name='Applikasjoner'></a>Applikasjoner
 ### <a name='Tilgang'></a>Tilgang  
 Når du velger fanen Tilgang får du opp en oversikt som viser brukere som har tilgang til applikasjonen. 
-Merk at denne oversikten blir vist i en egen fane som heter Brukere. En fane som heter M2M-klienter blir vist i bakgrunnen når pålogget bruker er Falk Administrator.
+Denne oversikten blir vist i en egen fane som heter Brukere. En fane som heter M2M-klienter blir vist i bakgrunnen når pålogget bruker er Falk Administrator.
 
 Oversikten som viser brukere har søkefelt og felt for å velge å filtrere brukerne enten på en bestemt enhet eller alle enheter, i kombinasjon med en bestemt rolle eller alle roller. 
 
