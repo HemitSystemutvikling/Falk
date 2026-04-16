@@ -39,7 +39,8 @@ Det er bare Falk Administrator som kan sette opp og aktivere Maskin til Maskin-k
 ## <a name='M2M-klienter'></a>M2M-klienter
 Falk Admininistrator har et menyvalg i fanen Administrere for å se og administrere maskin til maskin-klienter: M2M-klienter. 
 
-Når du velger M2M-klienter vil du få opp siden som viser oversikten over M2M-klientene i Falk. Du kan bruke søkefeltet på siden for å søke etter en M2M-klient.  
+Når du velger M2M-klienter vil du få opp siden som viser oversikten over M2M-klientene i Falk. Du kan bruke søkefeltet på siden for å søke etter en M2M-klient. 
+Det er mulig å søke på navnet til M2M-klienten, applikasjoner som M2M-klienten har tilgang til, og organisasjonsnavnet hvis kontaktinformasjonen er registrert på M2M-klienten i FALK.  
 Hver M2M-klient blir vist som en rad i oversikten. For hver klient vises antall API-scopes og hvor mange applikasjoner M2M-klienten har tilgang til. I tillegg kan du se om en M2M-klient er aktiv.
 
 ![Oversikten M2M-klienter i Falk.](img\Falk2.5\m2m-klienter.png)
