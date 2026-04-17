@@ -78,11 +78,11 @@ En M2M-klient som har blitt slettet kan tilbakeføres i databasen. Ved tilbakef�
 #### Kontakt
 Hvis du velger fanen Kontakt får du opp en oversikt som viser registrerte kontakter for M2M-klienten. Du får også tilgang til funksjonen for å legge til ny kontakt. 
 
-![Liste som viser kontakt for en M2M-klient.](Falk\img\Falk2.5\m2m-klient-Kontakt.png)
+![Liste som viser kontakt for en M2M-klient.](\img\Falk2.5\m2m-klient-Kontakt.png)
 
 Når du velger å legge til en ny kontakt må du oppgi navn og epostadresse. I tillegg kan du registrere organisasjon og telefonnummer. Hver kontakt blir vist i fanen Kontakter og kan slettes eller endres.  
 
-![Legg til ny kontakt.](Falk\img\Falk2.5\m2m-klient-Kontakt-LeggTilNy.png)
+![Legg til ny kontakt.](\img\Falk2.5\m2m-klient-Kontakt-LeggTilNy.png)
 
 
 ![Ny kontakt blir vist i listen.](\img\Falk2.5\m2m-klient-Kontakt-2.png)
