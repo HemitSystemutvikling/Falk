@@ -53,16 +53,18 @@ Nye M2M-klienter som blir satt opp vil få standard klientnavn basert på verdie
 
 ![Oversikten M2M-klienter i Falk.](img\Falk2.5\m2m-klienter.png)
 
-Velg en M2M-klient i oversikten for å åpne den og få opp mer informasjon om M2M-klienten. Fanen Konfigurasjon er i fokus når du åpner klienten og viser 
-- navnet til klienten, identifikatoren og avkryssingsboksen som viser om M2M-klienten er aktiv eller inaktiv, 
+Velg en M2M-klient i oversikten for å åpne den og få opp mer informasjon om M2M-klienten. Fanen Konfigurasjon er i fokus når du åpner M2M-klienten.
+
+#### Konfigurasjon 
+
+Fanen Konfigurasjon viser 
+- navnet til M2M-klienten, identifikatoren og avkryssingsboksen som viser om M2M-klienten er aktiv eller inaktiv, 
 - informasjon om multi tenancy, dersom M2M-klienten har denne typen klientoppsett,
 - listen API-ressurser som viser de API-ressursene som finnes, hvilke scopes som er satt opp og som er aktive eller inaktive for hver API-ressurs, 
 - listen Applikasjoner som viser navnet til de applikasjonene som er satt opp med denne klienten. Du kan klikke på navnet til applikasjonen for å navigere direkte til applikasjonen herfra.  
 
 ![Fanen Konfigurasjon som viser API-ressursene i en liste og knappen for å endre.](img\Falk2.5\m2m-klient-Konfigurasjon.png)
  
-#### Konfigurasjon
-
 I fanen Konfigurasjon for M2M-klienten har du også knappen for å endre på M2M-klienten. Når du velger knappen Endre blir M2M-klienten åpnet for redigering og du får gir tilgang til knapper du kan bruke til å avbryte redigeringen, slette M2M-klienten eller lagre endringer du har gjort. 
 
 ![M2M-klient i redigeringsmodus.](img\Falk2.5\m2m-klient-KonfigurasjonEndre.png)
