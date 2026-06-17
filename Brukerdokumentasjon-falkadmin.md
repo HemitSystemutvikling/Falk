@@ -71,11 +71,11 @@ Klikk knappen Legg til nytt varsel for å opprette et nytt varsel. Skriv teksten
 
 
 ## <a name='Brukere'></a>Brukere
-Når du velger menypunktet Brukere kommer du til en side med et søke-felt hvor du kan skrive inn navn og søke opp brukere i Falk. 
+Når du velger menypunktet Brukere kommer du til en side med et søkefelt hvor du kan skrive inn navn, e-post eller telefonnummer for å søke opp brukere i Falk. Når noe er skrevet i søkefeltet og det finnes brukere som har del av navn, e-post eller telefonnummer som samsvarer med som er skrevet inn, blir disse brukerne vist i en liste, og du kan velge den brukeren du vil se mer informasjon om.
 
 Over søkefeltet er det knapper for å laste ned en liste som kan vise alle administratorer og alle tilgangstildelere i Falk. Denne listen er en fil i CSV-format.  
 
-![Siden som viser brukere med søkefelt for å søke oppbrukere i Falk.](img\Falk2.5\FalkAdmin-Brukere_Søk.PNG)
+![Siden som viser brukere med søkefelt for å søke opp brukere i Falk.](img\Falk2.5\FalkAdmin-Brukere_Søk.PNG)
 
 
 ### <a name='Sketterbrukere'></a>Søk etter brukere 
@@ -129,7 +129,7 @@ Som Falk Administrator har du mulighet til å legge til nye applikasjonstyper og
 
 Når du velger Legg til ny applikasjonstype blir skjemaet for å registrere den nye applikasjonstypen åpnet. Skjemaet har felt for å gi applikasjonstypen et navn og en nedtrekkliste for å velge blant tilgjengelige claim-typer som skal legges til denne applikasjonstypen. 
 
-![Skjema for å legge til ny applikasjonstype.](img\Falk2.5\FalkAdmin-Applikasjonstyper_LeggTilNy.png)
+![Skjema for å legge til ny applikasjonstype.](img\Falk2.5\FalkAdmin-Applikasjonstyper-LeggTilNy.png)
 
 Når du har valgt riktig claim-type bruker du avkryssingsboksene for å definere hva claim-typen skal angi: 
 - EnhetsId, OrgUnitId, ReshId, 
@@ -139,13 +139,13 @@ Når du har valgt riktig claim-type bruker du avkryssingsboksene for å definere
 Etter at claim-type er valgt og du har definert hva den skal angi, kan du legge til claim-typen ved å velge knappen Legg til i tilgjengelige claim-typer. 
 Claim-typen du har lagt til blir vist i oversikten over claim-typer nederst i skjemaet. 
 
-![Applikasjonstype med en claim-type lagt til.](img\Falk2.5\FalkAdmin-Applikasjonstyper_LeggTilNy_Claim-type.png)
+![Applikasjonstype med en claim-type lagt til.](img\Falk2.5\FalkAdmin-Applikasjonstyper-LeggTilNy.png)
 
 
 Når en eller flere claim-typer er lagt til for applikasjonstypen er de vist i oversikten med informasjon claim-typen tillater å angi roller, enhetsId og spesifikke verdier. 
 Merk at det er mulig å slette en claim-type med Slett-knappen helt frem til du lagrer applikasjonstypen. 
 
-![Claim-typer med tilgjengelig slette-knapp før applikasjonstypen er lagret.](img\Falk2.5\FalkAdmin-Applikasjonstyper_LeggTilNy_Claim-type2.png)
+![Claim-typer med tilgjengelig slette-knapp før applikasjonstypen er lagret.](\Falk2.5\FalkAdminFalkAdmin-Applikasjonstyper_LeggTilNy_Claim-type2.png)
 
 
 
@@ -162,7 +162,7 @@ For å se og administrere en bestemt applikasjon kan du klikke på raden for app
 ### <a name='Leggtilnyapplikasjon'></a>Legg til ny applikasjon
 Som Falk Administrator kan du legge til nye applikasjoner i Falk. Dette kan du gjøre ved å velge knappen Legg til ny applikasjon i Applikasjoner-oversikten.
 
-![Legg til ny applikasjon-knapp.](img\FalkAdmin-LeggTilNyApplikasjonKnapp.PNG)
+![Legg til ny applikasjon-knapp.](img\Falk2.5\FalkAdmin-LeggTilNyApplikasjon-Knapp.PNG)
 
 Når du har valgt Legg til ny applikasjon får du opp et skjema med felter og valg for den nye applikasjonen. Noen felt og valg er obligatoriske, og når skjemaet er fullført kan du lagre skjemaet og få opprettet den nye applikasjonen. 
 
@@ -198,7 +198,11 @@ I skjemaet for å legge til ny klient kan du velge klienttype. Hvis du velger kl
 
 Hvis du velger klienttype Hubro viser skjemaet felt du må fylle ut for denne typen klient: 
 
-![Skjema for å legge til ny Hybro-klient for en applikasjon.](img\Falk2.5\FalkAdmin-Applikasjon_KlienterLeggTilNy_HubroClient.png)
+![Skjema for å legge til ny Hubro-klient for en applikasjon.](img\Falk2.5\FalkAdmin-Applikasjon_KlienterLeggTilNy_HubroClient.png)
+
+Hvis du velger klienttype Pelikan (integrasjonsklient) viser skjemaet felt du må fylle ut for integrasjonsklienten: 
+
+![Skjema for å legge til ny integrasjons-klient for en applikasjon.](img\Falk2.5\FalkAdmin-Applikasjon_KlienterLeggTilNy_PelikanClient.png)
 
 Når feltene i skjemaet er fylt ut med klienttype, navn og innstillinger og du har lagt til en eller flere klienthemmeligheter, klikker du Legg til i skjemaet for å lagre og lukke skjemaet. 
 
