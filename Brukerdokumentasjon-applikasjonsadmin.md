@@ -171,8 +171,9 @@ Når du har lagt inn et json-objekt i tekstboksen og velger Lagre, vil du se en 
 
 ![Bekreftelse på vellykket import av preautoriserte søknader.](img\Falk2.5\AppAdmin-ImporterPreautoriserteSøknader_Vellykket.png)
 
+Aktivitetsloggen kan sorteres på type Preautorisert tilgang som har blitt lagt til. Når den brukeren som har fått tilgang ved import av preautorisert søknad har logget inn, blir det også loggført i aktivitetsloggen at preautorisert tilgang har blitt aktivert. 
 
-![Aktivitetslogg som viser Preautoriserte tilgang som har blitt lagt til via import.](img\Falk2.5\AppAdmin-PreautoriserteSøknadLagtTil.png)
+![Aktivitetslogg som viser Preautorisert tilgang som har blitt lagt til via import.](img\Falk2.5\AppAdmin-PreautoriserteSøknadLagtTil.png)
 ---
 
 >[ Til forsiden i Falk brukerveiledning](README.md)
