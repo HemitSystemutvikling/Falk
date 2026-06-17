@@ -165,10 +165,14 @@ Et eksempel på et json-objekt kan være følgende:
 
 ![Fanen Importer Preautoriserte Søknader som viser tekstboksen for å legge inn json-objekt.](img\Falk2.5\AppAdmin-ImporterPreautoriserteSøknader.png)
 
-Når du har lagt inn et json-objekt i tekstboksen og velger Lagre, vil du se en tilbakemelding skjermen når importen er utført.
+
+
+Når du har lagt inn et json-objekt i tekstboksen og velger Lagre, vil du se en tilbakemelding på skjermen når importen er utført. Importen blir loggført og du kan finne den i Aktivitetsloggen: Velg fanen Aktivitetslogg, og velg å sortere logginnslagene på aktivitetstypen Preautorisert tilgang lagt til.
 
 ![Bekreftelse på vellykket import av preautoriserte søknader.](img\Falk2.5\AppAdmin-ImporterPreautoriserteSøknader_Vellykket.png)
 
+
+![Aktivitetslogg som viser Preautoriserte tilgang som har blitt lagt til via import.](img\Falk2.5\AppAdmin-PreautoriserteSøknadLagtTil.png)
 ---
 
 >[ Til forsiden i Falk brukerveiledning](README.md)
