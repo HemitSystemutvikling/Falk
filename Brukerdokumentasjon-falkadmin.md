@@ -80,12 +80,12 @@ Over søkefeltet er det knapper for å laste ned en liste som kan vise alle admi
 
 ### <a name='Sketterbrukere'></a>Søk etter brukere 
 For å søke etter en eller flere brukere på siden som viser brukere, må du skrive inn minst 3 tegn i feltet for å få et søkeresultat. 
-Du kan søke på navn, epostadresse eller telefonnummer. 
+Du kan søke på del av eller hele navn, e-postadresse eller telefonnummer. 
 
 Hvis du får treff på søket ditt, blir det vist i en liste. Klikk den brukeren i listen som du vil gå inn på. 
 
-Når du har valgt en bruker får du vist kontaktinformasjon og knapper for å deaktivere brukeren, og for å endre informasjon om brukeren. 
-Hvilke tilganger brukeren har og hvilke søknader brukeren har sendt blir vist i egne faner, dvs. fanene Tilganger og Søknader.
+Når du har valgt en bruker i listen, får du vist en fane som heter Bruker som viser navn, kontaktinformasjon, stillingstittel med mer, sammen med knapper for å deaktivere brukeren, og for å endre informasjon om brukeren. 
+Hvilke tilganger brukeren har og hvilke søknader brukeren har blir vist i egne faner, det vil si fanene Tilganger og Søknader.
 
 ![Skjema for å se og endre bruker i Falk.](img\Falk2.5\FalkAdmin-Bruker-admin.png)
 
@@ -152,8 +152,7 @@ Merk at det er mulig å slette en claim-type med Slett-knappen helt frem til du 
 ## <a name='Applikasjoner'></a>Applikasjoner 
 Som Falk Administrator har du oversikt over alle applikasjoner (registre) og kan admininstrere dem. Oversikten får du tilgang til når du velger fanen Applikasjoner på menyen. 
 
-Over listen som viser applikasjoner vil du få et søke-felt. I søke-feltet kan du skrive inn navn og søke opp en bestemt applikasjon. 
-Du kan velge å vise applikasjonene i listen i stigende eller fallende rekkefølge ved å klikke på pilene ved siden av Applikasjonsnavn og Scopenavn.
+Over listen som viser applikasjoner vil du få vist et søkefelt. I søkefeltet kan du skrive inn navn eller del av navn på en applikasjon (register) for å søke opp en bestemt applikasjon. Når det er en eller flere applikasjoner som inneholder det du har skrevet i søkefeltet blir de vist i en liste. Du kan velge å vise applikasjonene i listen i stigende eller fallende rekkefølge ved å klikke på pilene ved siden av Applikasjonsnavn og Scopenavn.
 
 ![Applikasjoner-listen med søkefelt.](img\Falk2.5\FalkAdmin-Applikasjoner.png)
 
