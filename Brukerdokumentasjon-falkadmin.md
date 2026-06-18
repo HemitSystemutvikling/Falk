@@ -145,7 +145,7 @@ Claim-typen du har lagt til blir vist i oversikten over claim-typer nederst i sk
 Når en eller flere claim-typer er lagt til for applikasjonstypen er de vist i oversikten med informasjon claim-typen tillater å angi roller, enhetsId og spesifikke verdier. 
 Merk at det er mulig å slette en claim-type med Slett-knappen helt frem til du lagrer applikasjonstypen. 
 
-![Claim-typer med tilgjengelig slette-knapp før applikasjonstypen er lagret.](\Falk2.5\FalkAdminFalkAdmin-Applikasjonstyper_LeggTilNy_Claim-type2.png)
+![Claim-typer med tilgjengelig slette-knapp før applikasjonstypen er lagret.](img\Falk2.5\FalkAdmin-Applikasjonstyper-LeggTilNy-Claim-type2.png)
 
 
 
@@ -161,7 +161,7 @@ For å se og administrere en bestemt applikasjon kan du klikke på raden for app
 ### <a name='Leggtilnyapplikasjon'></a>Legg til ny applikasjon
 Som Falk Administrator kan du legge til nye applikasjoner i Falk. Dette kan du gjøre ved å velge knappen Legg til ny applikasjon i Applikasjoner-oversikten.
 
-![Legg til ny applikasjon-knapp.](img\Falk2.5\FalkAdmin-LeggTilNyApplikasjon-Knapp.PNG)
+![Legg til ny applikasjon-knapp.](img\Falk2.5\FalkAdmin-ApplikasjonLeggTilNy-Knapp.png)
 
 Når du har valgt Legg til ny applikasjon får du opp et skjema med felter og valg for den nye applikasjonen. Noen felt og valg er obligatoriske, og når skjemaet er fullført kan du lagre skjemaet og få opprettet den nye applikasjonen. 
 
