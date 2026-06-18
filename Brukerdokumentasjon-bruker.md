@@ -43,11 +43,11 @@ Du kan søke etter informasjon på denne siden med Ctrl+ F:
 ## Bruker i Falk
 
 ## <a name='Skomtilgang'></a>Søk om tilgang
-I Falk kan du gå til direkte til et register ved å velge det registeret du vil navigere til, i listen som viser alle registre. 
+I Falk kan du gå til direkte til et register ved å velge det registeret du vil navigere til, i den listen som viser alle registre. 
 Når du klikker på navet til registeret i listen blir raden utvidet og viser knapper for å søke tilgang og for å gå til registeret. 
 For å gå direkte til registeret, velg Gå til registeret. 
 
-Når du har valgt Gå til registeret uten at du har tilgang til dette registeret, kommer du til siden for å søke om tilgang til registeret. Fyll inn informasjon om hva slags tilgang du trenger i skjemaet på søknadsiden, for å gi informere tilgangstildeler som mottar søknaden om hvilken rolle de skal gi deg og til hvilken enhet.
+Når du har valgt Gå til registeret uten at du har tilgang til dette registeret, kommer du automatisk til siden for å søke om tilgang til dette registeret. Fyll inn informasjon om hva slags tilgang du trenger i skjemaet på søknadsiden, for å gi informere tilgangstildeler som mottar søknaden om hvilken rolle de skal gi deg og til hvilken enhet.
 
 ![Skjema for å søke om tilgang til register.](img\Falk2.5\SøknadOmTilgang.png)
 
